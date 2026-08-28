@@ -217,33 +217,20 @@ async function uniqueDownloadPath(baseName) {
   return targetPath;
 }
 
-async function downloadWithBrowserPage(browser, url, targetPath) {
-  const page = await browser.newPage();
-  try {
-    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120 Safari/537.36');
-    const response = await page.goto(url, { waitUntil: 'networkidle2', timeout: 45000 });
-    if (!response || !response.ok()) {
-      throw new Error(`HTTP ${response?.status() || 'no response'}`);
-    }
-    const buffer = Buffer.from(await response.arrayBuffer());
-    await fsPromises.writeFile(targetPath, buffer);
-    return targetPath;
-  } finally {
-    await page.close().catch(() => {});
+async function downloadFileWithCookies(url, cookies, targetPath) {
+  const cookieHeader = cookies.map((c) => `${c.name}=${c.value}`).join('; ');
+  const res = await fetch(url, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36',
+      Cookie: cookieHeader,
+      Referer: env.diswayPriceListUrl || 'https://www.disway.com/liste-de-prix',
+      Accept: '*/*',
+    },
+  });
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status}`);
   }
-}
-
-async function downloadViaPortal() {
-  if (!env.diswayEmail || !env.diswayPassword) return [];
-  await fsPromises.mkdir(UPLOAD_DIR, { recursive: true });
-
-  let browser = null;
-  try {
-    browser = await puppeteer.launch({
       headless: 'new',
-      args: ['--no-sandbox', '--disable-setuid-sandbox'],
-    });
-    const page = await browser.newPage();
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120 Safari/537.36');
 
     // 1. Page de connexion
@@ -258,7 +245,6 @@ async function downloadViaPortal() {
     await page.type('input[type="password"]', env.diswayPassword);
 
     // Soumettre en ciblant le formulaire qui contient email+password
-    // (évite le bouton de recherche du header qui redirige vers /search)
     await Promise.all([
       page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 30000 }).catch(() => {}),
       page
@@ -279,16 +265,13 @@ async function downloadViaPortal() {
         .catch(() => {}),
     ]);
 
-    // Vérifier si la connexion a réussi (redirection vers la liste de prix ou compte)
+    // Vérifier si la connexion a réussi
     const loggedIn = await page.evaluate(() => {
       const hasLoginForm = !!document.querySelector('input[type="password"]');
       return !hasLoginForm || /liste-de-prix|account|compte/i.test(location.href);
     });
     if (!loggedIn) {
-      console.warn('⚠️ Disway: la connexion semble avoir échoué (toujours sur la page de login)');
-      await page
-        .screenshot({ path: path.join(UPLOAD_DIR, 'disway-login-failed.png') })
-        .catch(() => {});
+      console.warn('⚠️ Disway: la connexion semble avoir échoué');
       return null;
     }
 
@@ -297,7 +280,6 @@ async function downloadViaPortal() {
 
     const downloadLinks = await page.evaluate(() => {
       const anchors = Array.from(document.querySelectorAll('a[href]'));
-      return anchors
         .map((a) => ({ href: a.href, text: a.textContent || '' }))
         .filter(
           ({ href, text }) =>
@@ -306,7 +288,7 @@ async function downloadViaPortal() {
         );
     });
 
-    const files = [];
+    const cookies = await page.cookies();
     const uniqueHrefs = [
       ...new Set(
         downloadLinks
@@ -320,10 +302,10 @@ async function downloadViaPortal() {
         const parsedUrl = new URL(href, env.diswayPriceListUrl);
         const ext = path.extname(parsedUrl.pathname) || '.xlsx';
         const downloadPath = await uniqueDownloadPath(`disway-link-${index + 1}${ext}`);
-        await downloadWithBrowserPage(browser, parsedUrl.toString(), downloadPath);
+        await downloadFileWithCookies(parsedUrl.toString(), cookies, downloadPath);
         files.push(downloadPath);
+        console.log(`📥 Fichier Disway téléchargé avec succès : ${path.basename(downloadPath)}`);
       } catch (err) {
-        console.warn('⚠️ Disway téléchargement de lien direct échoué pour', href, err.message);
       }
     }
 
@@ -339,12 +321,9 @@ async function downloadViaPortal() {
           /\.(xlsx|xls|csv)(\?|$)/i.test(a.href) || /export|download/i.test(a.textContent || '')
       );
       return match?.href || null;
-    });
 
-    if (directUrl) {
       try {
         const parsed = new URL(directUrl, env.diswayPriceListUrl);
-        const ext = path.extname(parsed.pathname) || '.xlsx';
         const downloadPath = await uniqueDownloadPath(`disway-1${ext}`);
         await downloadWithBrowserPage(browser, parsed.toString(), downloadPath);
         return [downloadPath];
@@ -418,9 +397,13 @@ function norm(s) {
  * colonne descriptive suivante (le "format"/détail), à condition qu'elle ne
  * soit pas une colonne numérique (prix / stock / dispo).
  */
-function buildName(cells, header, colName) {
+function buildName(cells, header, colName, sku = '', brand = '') {
   let name = String(cells[colName] ?? '').trim();
   if (!name) return '';
+  // Si le nom commence par "Cage / Format", on ajoute la marque et le SKU pour un titre clair
+  if (/^cage\s*\/\s*format/i.test(name)) {
+    name = `${brand ? brand + ' ' : ''}${sku} - ${name.replace(/^cage\s*\/\s*format\s*/i, '').trim()}`.trim();
+  }
   // Colonne descriptive suivante => souvent le "format" ou complément de nom.
   const next = colName + 1;
   if (
@@ -499,6 +482,7 @@ function categoryFromSheetName(sheetName) {
   if (normalized) return normalized;
 
   const s = norm(sheetName);
+  if (/synolog|nas|stockage|destockage/.test(s)) return 'Stockage';
   if (/serveur|server/.test(s)) return 'Serveurs';
   if (/networking|switch|reseau/.test(s)) return 'Réseau';
   if (/option/.test(s)) return 'Options';
@@ -623,7 +607,8 @@ export async function parseDiswayFile({ localOnly = false } = {}) {
         const cells = raw[r];
         const sku = String(cells[colRef] ?? '').trim();
         if (!sku) continue;
-        const name = buildName(cells, header, colName);
+        const brandValue = String(cells[colBrand] ?? '').trim();
+        const name = buildName(cells, header, colName, sku, brandValue || brandFromSheet);
         if (!name) continue;
         if (
           /^(processeur|memoire|stockage|connectivite|alimentation|dimension|garantie|poids|capacite|format|securite|support)\s/i.test(
@@ -643,7 +628,6 @@ export async function parseDiswayFile({ localOnly = false } = {}) {
           price = extractPriceFromRow(cells, header, colName, colDispo);
         }
 
-        const brandValue = String(cells[colBrand] ?? '').trim();
         const categoryValue = String(cells[colCategory] ?? '').trim();
         const normalizedCategory = normalizeCategoryName(categoryValue);
         const descriptionValue = String(cells[colDescription] ?? '').trim() || null;

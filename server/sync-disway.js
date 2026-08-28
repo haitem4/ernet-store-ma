@@ -30,7 +30,7 @@ const prisma = new PrismaClient();
 // ============================================================
 // Configuration
 // ============================================================
-const MARKUP = Number(process.env.DISWAY_MARKUP || 1.5);
+const MARKUP = Number(process.env.DISWAY_MARKUP || 1.15);
 
 const DISWAY_URLS = (process.env.DISWAY_XLSX_URLS || process.env.DISWAY_XLSX_URL || '')
   .split(/[;,\s]+/)
