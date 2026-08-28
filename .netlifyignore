@@ -1,0 +1,9 @@
+node_modules
+pg3
+.redis
+logs
+*.log
+*.zip
+.git
+.gemini
+

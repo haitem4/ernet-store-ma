@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="300" viewBox="0 0 1024 300">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0b3d91"/>
+      <stop offset="1" stop-color="#00a89e"/>
+    </linearGradient>
+    <style>
+      .brand{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;font-weight:700;fill:url(#g);font-size:120px;letter-spacing:2px}
+      .sub{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;font-weight:600;fill:#4a5568;font-size:34px;letter-spacing:2px}
+    </style>
+  </defs>
+  <rect width="1024" height="300" rx="20" fill="white"/>
+  <text x="60" y="180" class="brand">ERNET</text>
+  <text x="60" y="230" class="sub">STORE</text>
+  <!-- subtle icon: stylized E made of three bars -->
+  <g transform="translate(760,70)">
+    <rect x="0" y="0" width="150" height="150" rx="24" fill="#f6f8fb"/>
+    <g transform="translate(30,30)" fill="url(#g)">
+      <rect x="0" y="0" width="90" height="18" rx="8"/>
+      <rect x="0" y="36" width="90" height="18" rx="8"/>
+      <rect x="0" y="72" width="90" height="18" rx="8"/>
+    </g>
+  </g>
+</svg>

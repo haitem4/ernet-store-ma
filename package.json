@@ -1,0 +1,38 @@
+{
+  "name": "ernet-store",
+  "version": "1.0.0",
+  "description": "ERNERSTORE — Plateforme e-commerce B2B/B2C matériel informatique (Maroc). React + Node.js + PostgreSQL + Redis + Meilisearch + Socket.IO",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently -n server,client -c blue,green \"npm run dev --workspace server\" \"npm run dev --workspace client\"",
+    "dev:server": "npm run dev --workspace server",
+    "dev:client": "npm run dev --workspace client",
+    "build": "npm run build --workspace client",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "npm run test --workspaces --if-present",
+    "seed": "npm run seed --workspace server",
+    "db:migrate": "npm run db:migrate --workspace server",
+    "zip": "node scripts/clean-zip.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "concurrently": "^8.2.2",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "globals": "^16.5.0",
+    "prettier": "^3.7.4"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "pg": "^8.23.0"
+  }
+}

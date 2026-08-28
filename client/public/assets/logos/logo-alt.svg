@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <defs>
+    <linearGradient id="ga" x1="0" x2="1">
+      <stop offset="0" stop-color="#0b3d91"/>
+      <stop offset="1" stop-color="#00a89e"/>
+    </linearGradient>
+    <style>
+      .brand{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;font-weight:800;fill:#0b3d91;font-size:80px}
+      .store{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;font-weight:600;fill:#6b7280;font-size:28px}
+      .icon{fill:url(#ga)}
+    </style>
+  </defs>
+  <rect width="900" height="300" rx="12" fill="#fff"/>
+  <g transform="translate(40,40)">
+    <g class="icon">
+      <rect x="0" y="0" width="120" height="120" rx="18" fill="url(#ga)"/>
+      <path d="M22 54 h76 v10 h-56 v40 h-14 v-40 h-6 z" fill="#fff"/>
+      <circle cx="92" cy="98" r="6" fill="#fff"/>
+    </g>
+    <text x="160" y="80" class="brand">ERNET</text>
+    <text x="160" y="120" class="store">STORE</text>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+node_modules/
+client/dist/
+server/uploads/
+logs/
+pg/
+pg2/
+pg3/
+.redis/
+*.txt
+*.png
+*.zip
+package-lock.json

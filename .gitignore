@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+client/.env
+server/.env
+
+# Build output
+client/dist/
+server/dist/
+
+# Uploads
+server/uploads/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Debug artifacts
+*.txt
+!TODO.md
+!client/public/robots.txt
+*.png
+!client/public/assets/brands/*.png
+panier.html
+server/check-*.js
+server/test-*.js
+server/parse-*.js
+server/diagnose-*.js
+server/inspect-*.js
+server/_*-temp.js
+
+# Local databases
+pg/
+pg2/
+pg3/
+.pg/
+.redis/
+
+# Archives
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Prisma
+server/prisma/migrations/**/migration_lock.toml
