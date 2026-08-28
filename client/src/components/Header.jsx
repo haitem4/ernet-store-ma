@@ -792,6 +792,55 @@ export default function Header() {
           </div>
         </div>
       </div>
+
+      {/* ============ 6. MOBILE BOTTOM NAVIGATION BAR ============ */}
+      <nav className="mobile-bottom-nav" aria-label="Navigation rapide mobile">
+        <NavLink
+          to="/"
+          className={({ isActive }) => `bottom-nav-item ${isActive ? 'active' : ''}`}
+          end
+        >
+          <span className="bottom-nav-icon">🏠</span>
+          <span className="bottom-nav-label">Accueil</span>
+        </NavLink>
+
+        <button
+          type="button"
+          className={`bottom-nav-item ${menuOpen ? 'active' : ''}`}
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Ouvrir les rayons"
+        >
+          <MenuIcon size={20} />
+          <span className="bottom-nav-label">Rayons</span>
+        </button>
+
+        <NavLink
+          to="/espace-pro"
+          className={({ isActive }) => `bottom-nav-item b2b ${isActive ? 'active' : ''}`}
+        >
+          <TagIcon size={20} />
+          <span className="bottom-nav-label">Devis B2B</span>
+        </NavLink>
+
+        <NavLink
+          to="/panier"
+          className={({ isActive }) => `bottom-nav-item ${isActive ? 'active' : ''}`}
+        >
+          <div className="bottom-nav-badge-wrap">
+            <CartIcon size={20} />
+            {cartCount > 0 && <span className="bottom-cart-badge">{cartCount}</span>}
+          </div>
+          <span className="bottom-nav-label">Panier</span>
+        </NavLink>
+
+        <NavLink
+          to={isAuthenticated ? '/compte' : '/login'}
+          className={({ isActive }) => `bottom-nav-item ${isActive ? 'active' : ''}`}
+        >
+          <UserIcon size={20} />
+          <span className="bottom-nav-label">{isAuthenticated ? 'Compte' : 'Connexion'}</span>
+        </NavLink>
+      </nav>
     </>
   );
 }

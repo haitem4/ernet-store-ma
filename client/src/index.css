@@ -1187,6 +1187,81 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; }
   }
 }
 
+/* ============ 6. MOBILE BOTTOM NAVIGATION BAR ============ */
+.mobile-bottom-nav {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: #ffffff;
+  border-top: 1px solid #e2e8f0;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.08);
+  z-index: 990;
+  padding: 0 8px;
+  align-items: center;
+  justify-content: space-around;
+}
+.bottom-nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 100%;
+  color: #64748b;
+  text-decoration: none;
+  font-size: 0.68rem;
+  font-weight: 600;
+  gap: 3px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.15s ease;
+  padding: 4px 0;
+}
+.bottom-nav-item:hover,
+.bottom-nav-item.active {
+  color: #2563eb;
+}
+.bottom-nav-item.b2b {
+  color: #d97706;
+}
+.bottom-nav-item.b2b.active {
+  color: #b45309;
+}
+.bottom-nav-icon {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+.bottom-nav-label {
+  line-height: 1;
+  font-size: 0.68rem;
+}
+.bottom-nav-badge-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.bottom-cart-badge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background: #ef4444;
+  color: #ffffff;
+  font-size: 0.6rem;
+  font-weight: 800;
+  min-width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3px;
+  border: 2px solid #ffffff;
+}
+
 /* ============ RESPONSIVE HEADER ============ */
 @media (max-width: 1024px) {
   .navbar-links-list {
@@ -1207,21 +1282,101 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; }
 }
 
 @media (max-width: 768px) {
-  .mobile-toggle-btn {
-    display: block;
+  body {
+    padding-bottom: 64px; /* Espace pour la barre de navigation mobile fixe */
   }
-  .ernet-navbar {
+  .mobile-bottom-nav {
+    display: flex;
+  }
+  .container {
+    padding: 0 16px;
+  }
+
+  /* Top bar mobile */
+  .ernet-topbar {
+    font-size: 0.72rem;
+  }
+  .topbar-inner {
+    min-height: 28px;
+    justify-content: space-between;
+    padding: 4px 16px;
+  }
+  .topbar-badge,
+  .topbar-left .topbar-info,
+  .topbar-left .topbar-sep {
     display: none;
+  }
+
+  /* Main header mobile */
+  .header-content {
+    flex-wrap: wrap;
+    padding: 10px 16px;
+    gap: 10px 12px;
+  }
+  .header-brand-link {
+    order: 1;
+    display: flex;
+    align-items: center;
+  }
+  .ernet-brand-name {
+    font-size: 1.3rem;
+  }
+  .ernet-brand-tagline {
+    display: none;
+  }
+
+  .header-actions-hub {
+    order: 2;
+    margin-left: auto;
+    gap: 8px;
+  }
+  .header-action-pill {
+    padding: 6px 10px;
+  }
+  .header-action-pill .pill-text,
+  .header-action-icon-btn,
+  .b2b-pill {
+    display: none;
+  }
+  .mobile-toggle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+    background: #f1f5f9;
+    color: #0f172a;
+    border: 1px solid #e2e8f0;
+  }
+
+  /* Barre de recherche sur toute la largeur (Ligne 2) */
+  .header-search-container {
+    order: 3;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 2px;
+  }
+  .header-search-form {
+    height: 40px;
   }
   .search-category-select,
   .search-btn-label {
     display: none;
   }
-  .header-actions-hub .pill-text,
-  .header-action-icon-btn,
-  .b2b-pill {
+  .search-main-input {
+    font-size: 0.85rem;
+    padding: 8px 12px;
+  }
+  .search-submit-btn {
+    height: 40px;
+    padding: 0 14px;
+  }
+
+  .ernet-navbar {
     display: none;
   }
+
   .trust-strip-inner {
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
@@ -1229,15 +1384,24 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; }
 }
 
 @media (max-width: 480px) {
-  .topbar-left .topbar-info,
-  .topbar-left .topbar-sep {
-    display: none;
+  .container {
+    padding: 0 12px;
+  }
+  .topbar-inner {
+    padding: 4px 12px;
+  }
+  .topbar-link {
+    font-size: 0.68rem;
   }
   .header-content {
-    padding: 10px 16px;
+    padding: 8px 12px 10px;
   }
-  .ernet-brand-tagline {
-    display: none;
+  .ernet-brand-name {
+    font-size: 1.18rem;
+  }
+  .ernet-logo-icon {
+    width: 32px;
+    height: 32px;
   }
   .trust-strip-inner {
     grid-template-columns: 1fr;
