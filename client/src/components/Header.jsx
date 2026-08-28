@@ -96,47 +96,47 @@ export default function Header() {
 
   const megaMenuCategories = [
     {
-      title: '🖥️ Serveurs & Data Center',
+      title: lang === 'en' ? '🖥️ Servers & Data Center' : '🖥️ Serveurs & Data Center',
       categorySlug: 'serveurs',
       items: [
-        { label: 'Serveurs Rack', slug: 'serveurs' },
-        { label: 'Serveurs Tour', slug: 'serveurs' },
-        { label: 'Baies & Racks 19"', slug: 'rack-pdu' },
-        { label: 'Stockage SAN / NAS', slug: 'stockage' },
-        { label: 'Onduleurs & PDU', slug: 'rack-pdu' },
+        { label: lang === 'en' ? 'Rack Servers' : 'Serveurs Rack', slug: 'serveurs' },
+        { label: lang === 'en' ? 'Tower Servers' : 'Serveurs Tour', slug: 'serveurs' },
+        { label: lang === 'en' ? '19" Racks & Enclosures' : 'Baies & Racks 19"', slug: 'rack-pdu' },
+        { label: lang === 'en' ? 'SAN / NAS Storage' : 'Stockage SAN / NAS', slug: 'stockage' },
+        { label: lang === 'en' ? 'UPS & PDU' : 'Onduleurs & PDU', slug: 'rack-pdu' },
       ],
     },
     {
-      title: '💻 PC, Portables & Stations',
+      title: lang === 'en' ? '💻 PCs, Laptops & Workstations' : '💻 PC, Portables & Stations',
       categorySlug: 'pc-portables',
       items: [
-        { label: 'PC Portables Professionnels', slug: 'pc-portables' },
-        { label: 'Stations de Travail (Workstation)', slug: 'stations-travail' },
-        { label: 'Ordinateurs de Bureau (Desktop)', slug: 'pc-bureau' },
-        { label: 'Tablettes & Terminaux', slug: 'tablettes' },
-        { label: 'Écrans & Moniteurs Pro', slug: 'moniteurs' },
+        { label: lang === 'en' ? 'Pro Laptops' : 'PC Portables Professionnels', slug: 'pc-portables' },
+        { label: lang === 'en' ? 'Workstations' : 'Stations de Travail (Workstation)', slug: 'stations-travail' },
+        { label: lang === 'en' ? 'Desktop PCs' : 'Ordinateurs de Bureau (Desktop)', slug: 'pc-bureau' },
+        { label: lang === 'en' ? 'Tablets & Terminals' : 'Tablettes & Terminaux', slug: 'tablettes' },
+        { label: lang === 'en' ? 'Pro Monitors & Displays' : 'Écrans & Moniteurs Pro', slug: 'moniteurs' },
       ],
     },
     {
-      title: '🌐 Réseaux & Télécoms',
+      title: lang === 'en' ? '🌐 Networks & Telecom' : '🌐 Réseaux & Télécoms',
       categorySlug: 'reseaux',
       items: [
-        { label: 'Switches Manageables', slug: 'switches' },
-        { label: 'Routeurs & Passerelles', slug: 'routeurs' },
-        { label: 'Bornes Wi-Fi Professionnelles', slug: 'points-acces' },
-        { label: 'Firewalls & Sécurité Réseau', slug: 'securite-reseau' },
-        { label: 'Câblage & Fibre Optique', slug: 'reseaux' },
+        { label: lang === 'en' ? 'Managed Switches' : 'Switches Manageables', slug: 'switches' },
+        { label: lang === 'en' ? 'Routers & Gateways' : 'Routeurs & Passerelles', slug: 'routeurs' },
+        { label: lang === 'en' ? 'Pro Wi-Fi Access Points' : 'Bornes Wi-Fi Professionnelles', slug: 'points-acces' },
+        { label: lang === 'en' ? 'Firewalls & Network Security' : 'Firewalls & Sécurité Réseau', slug: 'securite-reseau' },
+        { label: lang === 'en' ? 'Cabling & Optical Fiber' : 'Câblage & Fibre Optique', slug: 'reseaux' },
       ],
     },
     {
-      title: '💾 Composants & Périphériques',
+      title: lang === 'en' ? '💾 Components & Peripherals' : '💾 Composants & Périphériques',
       categorySlug: 'accessoires',
       items: [
-        { label: 'Disques SSD NVMe / SATA', slug: 'stockage' },
-        { label: 'Mémoires RAM Serveur & PC', slug: 'accessoires' },
-        { label: 'Imprimantes & Scanners', slug: 'imprimantes' },
-        { label: 'Accessoires & Câbles', slug: 'accessoires' },
-        { label: 'Licences & Logiciels', slug: 'logiciels' },
+        { label: lang === 'en' ? 'NVMe / SATA SSD Drives' : 'Disques SSD NVMe / SATA', slug: 'stockage' },
+        { label: lang === 'en' ? 'Server & PC RAM Memory' : 'Mémoires RAM Serveur & PC', slug: 'accessoires' },
+        { label: lang === 'en' ? 'Printers & Scanners' : 'Imprimantes & Scanners', slug: 'imprimantes' },
+        { label: lang === 'en' ? 'Accessories & Cables' : 'Accessoires & Câbles', slug: 'accessoires' },
+        { label: lang === 'en' ? 'Licenses & Software' : 'Licences & Logiciels', slug: 'logiciels' },
       ],
     },
   ];
@@ -158,27 +158,27 @@ export default function Header() {
       <div className="ernet-topbar">
         <div className="container topbar-inner">
           <div className="topbar-left">
-            <span className="topbar-badge">DISTRIBUTEUR IT OFFICIEL</span>
+            <span className="topbar-badge">{t('officialDistributor')}</span>
             <span className="topbar-info">
               <GlobeIcon size={14} />
-              Casablanca, Maroc
+              {t('casablanca')}
             </span>
             <span className="topbar-sep">•</span>
             <a href="tel:+212522204060" className="topbar-link">
               <HeadphonesIcon size={14} />
-              Support Ventes : <strong>+212 5 22 20 40 60</strong>
+              {t('salesSupport')} : <strong>+212 5 22 20 40 60</strong>
             </a>
           </div>
 
           <div className="topbar-right">
             <Link to="/espace-pro" className="topbar-pro-cta">
               <TagIcon size={13} />
-              <span>Devis Express B2B</span>
+              <span>{t('expressB2BQuote')}</span>
             </Link>
 
             <span className="topbar-sep">•</span>
 
-            {/* Switcher Langue */}
+            {/* Switcher Langue PC */}
             <div className="topbar-lang" role="group" aria-label="Langue">
               <button
                 className={`topbar-lang-btn ${lang === 'fr' ? 'active' : ''}`}
@@ -236,13 +236,13 @@ export default function Header() {
                   onChange={(e) => setSearchCategory(e.target.value)}
                   aria-label="Catégorie de recherche"
                 >
-                  <option value="">Tous les rayons</option>
-                  <option value="serveurs">Serveurs & Baies</option>
-                  <option value="pc-portables">PC & Portables</option>
-                  <option value="reseaux">Réseaux & Wi-Fi</option>
-                  <option value="stockage">Stockage & SSD</option>
-                  <option value="imprimantes">Impression</option>
-                  <option value="accessoires">Accessoires</option>
+                  <option value="">{t('allDepartments')}</option>
+                  <option value="serveurs">{t('serversRacks')}</option>
+                  <option value="pc-portables">{t('pcLaptops')}</option>
+                  <option value="reseaux">{t('networksSecurity')}</option>
+                  <option value="stockage">{t('storage')}</option>
+                  <option value="imprimantes">{t('printers')}</option>
+                  <option value="accessoires">{t('accessories')}</option>
                 </select>
                 <ChevronDownIcon size={14} className="select-chevron" />
               </div>
@@ -250,7 +250,7 @@ export default function Header() {
               <div className="search-input-wrapper">
                 <input
                   type="text"
-                  placeholder="Rechercher une référence, produit, marque (ex: Serveur HP, Switch Cisco...)"
+                  placeholder={t('searchPlaceholder')}
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
                   onFocus={() => setSearchFocused(true)}
@@ -269,9 +269,9 @@ export default function Header() {
                 )}
               </div>
 
-              <button type="submit" className="search-submit-btn" aria-label="Lancer la recherche">
+              <button type="submit" className="search-submit-btn" aria-label={t('searchAction')}>
                 <SearchIcon size={18} />
-                <span className="search-btn-label">Rechercher</span>
+                <span className="search-btn-label">{t('searchAction')}</span>
               </button>
             </form>
 
@@ -282,7 +282,7 @@ export default function Header() {
                 onMouseDown={(e) => e.preventDefault()} // évite le blur prématuré
               >
                 <div className="popover-section">
-                  <span className="popover-title">🔥 Recherches fréquentes :</span>
+                  <span className="popover-title">{t('popularSearchesTitle')}</span>
                   <div className="popover-tags">
                     {popularSearches.map((s, i) => (
                       <button
@@ -301,13 +301,13 @@ export default function Header() {
                   </div>
                 </div>
                 <div className="popover-footer">
-                  <span>Appuyez sur Entrée pour valider la recherche</span>
+                  <span>{t('pressEnterToSearch')}</span>
                   <Link
                     to="/catalogue"
                     className="popover-link-all"
                     onClick={() => setSearchFocused(false)}
                   >
-                    Voir tout le catalogue →
+                    {t('viewFullCatalog')}
                   </Link>
                 </div>
               </div>
@@ -320,8 +320,8 @@ export default function Header() {
             <Link to="/espace-pro" className="header-action-pill b2b-pill">
               <TagIcon size={18} />
               <div className="pill-text">
-                <span className="pill-caption">Professionnels</span>
-                <span className="pill-strong">Devis B2B</span>
+                <span className="pill-caption">{lang === 'en' ? 'Professionals' : 'Professionnels'}</span>
+                <span className="pill-strong">{t('quoteB2B')}</span>
               </div>
             </Link>
 
@@ -329,11 +329,11 @@ export default function Header() {
             <Link
               to="/compte"
               className="header-action-icon-btn"
-              title="Mes favoris"
-              aria-label="Favoris"
+              title={t('favorites')}
+              aria-label={t('favorites')}
             >
               <HeartIcon size={22} />
-              <span className="action-icon-label">Favoris</span>
+              <span className="action-icon-label">{t('favorites')}</span>
             </Link>
 
             {/* Espace Compte / Profil */}
@@ -354,11 +354,11 @@ export default function Header() {
                 <div className="pill-text">
                   <span className="pill-caption">
                     {isAuthenticated
-                      ? user?.companyName || (isB2B ? 'Compte Pro' : 'Mon compte')
-                      : 'Espace client'}
+                      ? user?.companyName || (isB2B ? (lang === 'en' ? 'Pro Account' : 'Compte Pro') : t('myAccount'))
+                      : t('customerPortal')}
                   </span>
                   <span className="pill-strong">
-                    {isAuthenticated ? user?.firstName : 'Se connecter'}
+                    {isAuthenticated ? user?.firstName : t('signIn')}
                   </span>
                 </div>
                 <ChevronDownIcon size={14} className="pill-chevron" />
@@ -748,7 +748,7 @@ export default function Header() {
                   className="btn btn-primary btn-sm btn-full"
                   onClick={() => setMenuOpen(false)}
                 >
-                  Se connecter
+                  {t('login')}
                 </Link>
                 <Link
                   to="/register"
@@ -756,7 +756,7 @@ export default function Header() {
                   onClick={() => setMenuOpen(false)}
                   style={{ marginTop: 8 }}
                 >
-                  Créer un compte
+                  {lang === 'en' ? 'Create an account' : 'Créer un compte'}
                 </Link>
               </div>
             )}
@@ -764,7 +764,7 @@ export default function Header() {
         </div>
       </div>
 
-      {/* ============ 5. VALUE PROPOSITION STRIP ============ */}
+      {/* ============ 5. VALUE PROPOSITION STRIP (Dynamique FR/EN) ============ */}
       <div className="ernet-trust-strip">
         <div className="container trust-strip-inner">
           <div className="trust-cell">
@@ -772,8 +772,8 @@ export default function Header() {
               <TruckIcon size={20} />
             </div>
             <div className="trust-texts">
-              <strong>Livraison Express 24-48h</strong>
-              <span>Casablanca & tout le Maroc</span>
+              <strong>{t('trustExpressDelivery')}</strong>
+              <span>{t('trustExpressDeliverySub')}</span>
             </div>
           </div>
 
@@ -782,8 +782,8 @@ export default function Header() {
               <ShieldIcon size={20} />
             </div>
             <div className="trust-texts">
-              <strong>Garantie Constructeur</strong>
-              <span>Produits neufs & certifiés</span>
+              <strong>{t('trustWarranty')}</strong>
+              <span>{t('trustWarrantySub')}</span>
             </div>
           </div>
 
@@ -792,8 +792,8 @@ export default function Header() {
               <TagIcon size={20} />
             </div>
             <div className="trust-texts">
-              <strong>Tarifs Dégressifs B2B</strong>
-              <span>Comptes pro & revendeurs</span>
+              <strong>{t('trustB2B')}</strong>
+              <span>{t('trustB2BSub')}</span>
             </div>
           </div>
 
@@ -802,14 +802,14 @@ export default function Header() {
               <HeadphonesIcon size={20} />
             </div>
             <div className="trust-texts">
-              <strong>Assistance Technique</strong>
-              <span>Experts serveurs & réseaux</span>
+              <strong>{t('trustSupport')}</strong>
+              <span>{t('trustSupportSub')}</span>
             </div>
           </div>
         </div>
       </div>
 
-      {/* ============ 6. MOBILE BOTTOM NAVIGATION BAR ============ */}
+      {/* ============ 6. MOBILE BOTTOM NAVIGATION BAR (Dynamique FR/EN) ============ */}
       <nav className="mobile-bottom-nav" aria-label="Navigation rapide mobile">
         <NavLink
           to="/"
@@ -817,17 +817,17 @@ export default function Header() {
           end
         >
           <span className="bottom-nav-icon">🏠</span>
-          <span className="bottom-nav-label">Accueil</span>
+          <span className="bottom-nav-label">{t('home')}</span>
         </NavLink>
 
         <button
           type="button"
           className={`bottom-nav-item ${menuOpen ? 'active' : ''}`}
           onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Ouvrir les rayons"
+          aria-label={t('allCategories')}
         >
           <MenuIcon size={20} />
-          <span className="bottom-nav-label">Rayons</span>
+          <span className="bottom-nav-label">{lang === 'en' ? 'Categories' : 'Rayons'}</span>
         </button>
 
         <NavLink
@@ -835,7 +835,7 @@ export default function Header() {
           className={({ isActive }) => `bottom-nav-item b2b ${isActive ? 'active' : ''}`}
         >
           <TagIcon size={20} />
-          <span className="bottom-nav-label">Devis B2B</span>
+          <span className="bottom-nav-label">{t('quoteB2B')}</span>
         </NavLink>
 
         <NavLink
@@ -846,7 +846,7 @@ export default function Header() {
             <CartIcon size={20} />
             {cartCount > 0 && <span className="bottom-cart-badge">{cartCount}</span>}
           </div>
-          <span className="bottom-nav-label">Panier</span>
+          <span className="bottom-nav-label">{t('cart')}</span>
         </NavLink>
 
         <NavLink
@@ -854,7 +854,9 @@ export default function Header() {
           className={({ isActive }) => `bottom-nav-item ${isActive ? 'active' : ''}`}
         >
           <UserIcon size={20} />
-          <span className="bottom-nav-label">{isAuthenticated ? 'Compte' : 'Connexion'}</span>
+          <span className="bottom-nav-label">
+            {isAuthenticated ? (lang === 'en' ? 'Account' : 'Compte') : (lang === 'en' ? 'Login' : 'Connexion')}
+          </span>
         </NavLink>
       </nav>
     </>
