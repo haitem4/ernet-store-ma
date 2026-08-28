@@ -44,7 +44,7 @@ const env = {
     .filter(Boolean),
   diswayEmail: process.env.DISWAY_EMAIL,
   diswayPassword: process.env.DISWAY_PASSWORD,
-  diswayMarkup: Number(process.env.DISWAY_MARKUP || 1.5),
+  diswayMarkup: Number(process.env.DISWAY_MARKUP || 1.15),
   diswayAutoSync: process.env.DISWAY_AUTO_SYNC === 'true',
   diswayAutoSyncMonthly: process.env.DISWAY_AUTO_SYNC_MONTHLY === 'true',
   diswayAutoSyncTime: process.env.DISWAY_AUTO_SYNC_TIME || '04:00',

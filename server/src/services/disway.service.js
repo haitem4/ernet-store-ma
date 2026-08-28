@@ -35,8 +35,8 @@ async function listLocalPriceFiles() {
   }
 }
 
-// Marge de bénéfice : prix_public = tarif_fournisseur × MARKUP
-const MARKUP = env.diswayMarkup ?? 1.5;
+// Marge de bénéfice : prix_public = tarif_fournisseur_remisé_HT × MARKUP (1.15 = +15%)
+const MARKUP = env.diswayMarkup ?? 1.15;
 
 /**
  * Convertit une valeur Excel en nombre valide (gère virgules, espaces, €/DH).
