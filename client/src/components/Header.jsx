@@ -210,6 +210,22 @@ export default function Header() {
             <Logo size="lg" withText={true} />
           </Link>
 
+          {/* Switcher Langue pour Mobile (FR / EN) */}
+          <div className="header-mobile-lang" role="group" aria-label="Langue">
+            <button
+              className={`topbar-lang-btn ${lang === 'fr' ? 'active' : ''}`}
+              onClick={() => setLang('fr')}
+            >
+              FR
+            </button>
+            <button
+              className={`topbar-lang-btn ${lang === 'en' ? 'active' : ''}`}
+              onClick={() => setLang('en')}
+            >
+              EN
+            </button>
+          </div>
+
           {/* Barre de Recherche Intelligente */}
           <div className="header-search-container">
             <form onSubmit={handleSearch} className="header-search-form" role="search">

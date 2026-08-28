@@ -1262,6 +1262,11 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; }
   border: 2px solid #ffffff;
 }
 
+/* ============ MOBILE LANGUAGE SWITCHER ============ */
+.header-mobile-lang {
+  display: none;
+}
+
 /* ============ RESPONSIVE HEADER ============ */
 @media (max-width: 1024px) {
   .navbar-links-list {
@@ -1283,36 +1288,32 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; }
 
 @media (max-width: 768px) {
   body {
-    padding-bottom: 64px; /* Espace pour la barre de navigation mobile fixe */
+    padding-bottom: 64px; /* Espace pour la barre de navigation mobile fixe en bas */
   }
+
+  /* Masquer complètement la Topbar et la barre de navigation PC sur mobile */
+  .ernet-topbar,
+  .ernet-navbar {
+    display: none !important;
+  }
+
+  /* Barre de navigation mobile fixe en bas */
   .mobile-bottom-nav {
     display: flex;
   }
+
   .container {
     padding: 0 16px;
   }
 
-  /* Top bar mobile */
-  .ernet-topbar {
-    font-size: 0.72rem;
-  }
-  .topbar-inner {
-    min-height: 28px;
-    justify-content: space-between;
-    padding: 4px 16px;
-  }
-  .topbar-badge,
-  .topbar-left .topbar-info,
-  .topbar-left .topbar-sep {
-    display: none;
-  }
-
-  /* Main header mobile */
+  /* Main header mobile : Ligne 1 = Logo + FR/EN, Ligne 2 = Barre de recherche */
   .header-content {
     flex-wrap: wrap;
     padding: 10px 16px;
-    gap: 10px 12px;
+    gap: 8px 12px;
+    align-items: center;
   }
+
   .header-brand-link {
     order: 1;
     display: flex;
@@ -1325,29 +1326,37 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; }
     display: none;
   }
 
-  .header-actions-hub {
+  /* Switcher Langue Français / Anglais (Ligne 1 Droite) */
+  .header-mobile-lang {
+    display: flex !important;
+    align-items: center;
+    gap: 3px;
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 3px;
+    border-radius: 8px;
     order: 2;
     margin-left: auto;
-    gap: 8px;
   }
-  .header-action-pill {
-    padding: 6px 10px;
+  .header-mobile-lang .topbar-lang-btn {
+    color: #64748b;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: all 0.15s ease;
   }
-  .header-action-pill .pill-text,
-  .header-action-icon-btn,
-  .b2b-pill {
-    display: none;
+  .header-mobile-lang .topbar-lang-btn.active {
+    background: #2563eb;
+    color: #ffffff;
   }
-  .mobile-toggle-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 38px;
-    height: 38px;
-    border-radius: 8px;
-    background: #f1f5f9;
-    color: #0f172a;
-    border: 1px solid #e2e8f0;
+
+  /* Masquer les boutons du header PC car ils sont dans la barre du bas */
+  .header-actions-hub {
+    display: none !important;
   }
 
   /* Barre de recherche sur toute la largeur (Ligne 2) */
@@ -1355,26 +1364,23 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; }
     order: 3;
     width: 100%;
     max-width: 100%;
-    margin-top: 2px;
+    margin-top: 4px;
   }
   .header-search-form {
-    height: 40px;
+    height: 42px;
+    border-radius: 8px;
   }
   .search-category-select,
   .search-btn-label {
     display: none;
   }
   .search-main-input {
-    font-size: 0.85rem;
+    font-size: 0.88rem;
     padding: 8px 12px;
   }
   .search-submit-btn {
-    height: 40px;
-    padding: 0 14px;
-  }
-
-  .ernet-navbar {
-    display: none;
+    height: 42px;
+    padding: 0 16px;
   }
 
   .trust-strip-inner {
@@ -1387,14 +1393,8 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; }
   .container {
     padding: 0 12px;
   }
-  .topbar-inner {
-    padding: 4px 12px;
-  }
-  .topbar-link {
-    font-size: 0.68rem;
-  }
   .header-content {
-    padding: 8px 12px 10px;
+    padding: 8px 12px;
   }
   .ernet-brand-name {
     font-size: 1.18rem;
