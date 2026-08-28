@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext.jsx';
 import { productsApi } from '../api/client.js';
+import { FALLBACK_PRODUCTS, FALLBACK_BRANDS } from '../data/fallbackProducts.js';
 import ProductCard from '../components/ProductCard.jsx';
 import {
   TruckIcon,
@@ -23,7 +24,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('featured');
   const [stats, setStats] = useState({
-    products: 0,
+    products: 120,
     brands: 50,
     clients: 2000,
     delivery: '24-48h',
@@ -39,24 +40,27 @@ export default function Home() {
           productsApi.meta().catch(() => ({ data: { categories: [], brands: [] } })),
         ]);
 
-        const featured = Array.isArray(featuredRes.data)
+        const featured = Array.isArray(featuredRes?.data)
           ? featuredRes.data
-          : featuredRes.data?.hits || [];
-        const newest = newRes.data?.hits || [];
-        const brandList = metaRes.data?.brands || [];
-        const catList = metaRes.data?.categories || [];
+          : featuredRes?.data?.hits || [];
+        const newest = newRes?.data?.hits || [];
+        const brandList = metaRes?.data?.brands || [];
+        const catList = metaRes?.data?.categories || [];
         const productCount = catList.reduce((sum, c) => sum + (c.count || 0), 0);
 
-        setFeaturedProducts(featured);
-        setNewProducts(newest);
-        setBrands(brandList);
+        setFeaturedProducts(featured.length > 0 ? featured : FALLBACK_PRODUCTS.filter(p => p.isFeatured));
+        setNewProducts(newest.length > 0 ? newest : FALLBACK_PRODUCTS.filter(p => p.isNew));
+        setBrands(brandList.length > 0 ? brandList : FALLBACK_BRANDS);
         setStats((prev) => ({
           ...prev,
-          products: productCount || newest.length || prev.products,
-          brands: brandList.length || prev.brands,
+          products: productCount || newest.length || FALLBACK_PRODUCTS.length,
+          brands: brandList.length || FALLBACK_BRANDS.length,
         }));
       } catch (err) {
-        console.error('Home data fetch error:', err);
+        console.warn('Home data fallback:', err.message);
+        setFeaturedProducts(FALLBACK_PRODUCTS.filter(p => p.isFeatured));
+        setNewProducts(FALLBACK_PRODUCTS.filter(p => p.isNew));
+        setBrands(FALLBACK_BRANDS);
       } finally {
         setLoading(false);
       }

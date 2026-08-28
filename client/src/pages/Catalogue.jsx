@@ -5,6 +5,7 @@ import { useState, useEffect, useCallback, useMemo, Fragment } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext.jsx';
 import { productsApi, categoriesApi, brandsApi } from '../api/client.js';
+import { FALLBACK_PRODUCTS, FALLBACK_CATEGORIES, FALLBACK_BRANDS } from '../data/fallbackProducts.js';
 import ProductCard from '../components/ProductCard.jsx';
 import {
   FilterIcon,
@@ -55,8 +56,9 @@ export default function Catalogue() {
 
   // Filter brands based on search
   const filteredBrands = useMemo(() => {
-    if (!brandSearch) return brands;
-    return brands.filter(b =>
+    const list = brands.length ? brands : FALLBACK_BRANDS;
+    if (!brandSearch) return list;
+    return list.filter(b =>
       b.name.toLowerCase().includes(brandSearch.toLowerCase())
     );
   }, [brands, brandSearch]);
@@ -73,7 +75,41 @@ export default function Catalogue() {
     page: parseInt(searchParams.get('page') || '1'),
   }), [searchParams]);
 
-  // Fetch data
+  // Client-side fallback filtering when API is offline / slow
+  const getFilteredFallback = useCallback(() => {
+    let list = [...FALLBACK_PRODUCTS];
+    if (params.q) {
+      const qLower = params.q.toLowerCase();
+      list = list.filter(p => p.name.toLowerCase().includes(qLower) || (p.brand?.name || p.brand || '').toLowerCase().includes(qLower));
+    }
+    if (params.category) {
+      const catLower = params.category.toLowerCase();
+      list = list.filter(p => (p.category?.slug || p.category || '').toLowerCase() === catLower || (p.category?.name || p.category || '').toLowerCase().includes(catLower));
+    }
+    if (params.brand) {
+      const brandLower = params.brand.toLowerCase();
+      list = list.filter(p => (p.brand?.slug || p.brand?.name || p.brand || '').toLowerCase() === brandLower);
+    }
+    if (params.minPrice) {
+      list = list.filter(p => p.price >= Number(params.minPrice));
+    }
+    if (params.maxPrice) {
+      list = list.filter(p => p.price <= Number(params.maxPrice));
+    }
+    if (params.inStock) {
+      list = list.filter(p => p.stock > 0);
+    }
+    if (params.sort === 'price_asc') {
+      list.sort((a, b) => a.price - b.price);
+    } else if (params.sort === 'price_desc') {
+      list.sort((a, b) => b.price - a.price);
+    } else if (params.sort === 'newest') {
+      list.sort((a, b) => (b.isNew ? 1 : 0) - (a.isNew ? 1 : 0));
+    }
+    return list;
+  }, [params]);
+
+  // Fetch data with instantaneous fallback
   const fetchData = useCallback(async () => {
     setLoading(true);
     try {
@@ -90,24 +126,34 @@ export default function Catalogue() {
       };
 
       const [productsRes, catsRes, brandsRes] = await Promise.all([
-        productsApi.list(apiParams),
-        categories.length ? Promise.resolve(categories) : categoriesApi.list(),
-        brands.length ? Promise.resolve(brands) : brandsApi.list(),
+        productsApi.list(apiParams).catch(() => null),
+        categories.length ? Promise.resolve(categories) : categoriesApi.list().catch(() => null),
+        brands.length ? Promise.resolve(brands) : brandsApi.list().catch(() => null),
       ]);
 
-      const hits = productsRes.data.hits || productsRes.data.products || [];
-      setProducts(hits);
-      setTotalCount(productsRes.data.total || hits.length);
-      if (!categories.length) setCategories(catsRes || []);
-      if (!brands.length) setBrands(brandsRes || []);
+      const hits = productsRes?.data?.hits || productsRes?.data?.products || [];
+      if (hits.length > 0) {
+        setProducts(hits);
+        setTotalCount(productsRes.data.total || hits.length);
+      } else {
+        const fallbackList = getFilteredFallback();
+        setProducts(fallbackList);
+        setTotalCount(fallbackList.length);
+      }
+
+      setCategories(catsRes && catsRes.length ? catsRes : FALLBACK_CATEGORIES);
+      setBrands(brandsRes && brandsRes.length ? brandsRes : FALLBACK_BRANDS);
     } catch (err) {
-      console.error('Catalogue fetch error:', err);
-      setProducts([]);
-      setTotalCount(0);
+      console.warn('Using fast fallback catalogue:', err.message);
+      const fallbackList = getFilteredFallback();
+      setProducts(fallbackList);
+      setTotalCount(fallbackList.length);
+      if (!categories.length) setCategories(FALLBACK_CATEGORIES);
+      if (!brands.length) setBrands(FALLBACK_BRANDS);
     } finally {
       setLoading(false);
     }
-  }, [params, categories, brands]);
+  }, [params, categories, brands, getFilteredFallback]);
 
   useEffect(() => {
     fetchData();

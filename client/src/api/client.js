@@ -15,8 +15,9 @@ export function getSessionId() {
 }
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/api` : '/api',
   withCredentials: true,
+  timeout: 4000, // Évite les blocages et lags prolongés sur Netlify
   headers: { 'Content-Type': 'application/json' },
 });
 
@@ -28,7 +29,13 @@ api.interceptors.request.use((config) => {
 });
 
 api.interceptors.response.use(
-  (res) => res,
+  (res) => {
+    // Si Netlify renvoie index.html (string) au lieu du JSON d'API attendu
+    if (typeof res.data === 'string' && (res.data.includes('<!doctype') || res.data.includes('<html'))) {
+      return Promise.reject(new Error('Netlify SPA returned HTML instead of API JSON'));
+    }
+    return res;
+  },
   (err) => {
     const status = err.response?.status;
     const url = err.config?.url || '';
