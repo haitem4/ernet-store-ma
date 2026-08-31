@@ -60,7 +60,49 @@ export function cleanNumeric(val) {
   if (!cleaned) return null;
 
   // Supprimer les unités ou symboles de devises
-  if (/^\d+\s*(to|tb|go|gb|mo|mb|ko|kb)$/i.test(cleaned)) return null;
+  cleaned = cleaned.replace(/[^\d.,-]/g, '').replace(/\s/g, '');
+  if (!cleaned) return null;
+
+  const hasComma = cleaned.includes(',');
+  const hasDot = cleaned.includes('.');
+
+  // 1. Présence des deux séparateurs (ex: 12.500,00 ou 12,500.00)
+  if (hasComma && hasDot) {
+    const lastComma = cleaned.lastIndexOf(',');
+    const lastDot = cleaned.lastIndexOf('.');
+    if (lastComma > lastDot) {
+      cleaned = cleaned.replace(/\./g, '').replace(/,/g, '.');
+    } else {
+      cleaned = cleaned.replace(/,/g, '');
+    }
+  }
+  // 2. Uniquement des virgules (ex: 12,500 ou 12500,50)
+  else if (hasComma) {
+    const parts = cleaned.split(',');
+    if (parts.length === 2 && parts[1].length === 3 && Number(parts[0]) > 0) {
+      cleaned = cleaned.replace(/,/g, '');
+    } else {
+      cleaned = cleaned.replace(/,/g, '.');
+    }
+  }
+  // 3. Uniquement des points (ex: 12.500 ou 1.250.000)
+  else if (hasDot) {
+    const parts = cleaned.split('.');
+    if (parts.length > 2) {
+      cleaned = cleaned.replace(/\./g, '');
+    } else if (parts.length === 2 && parts[1].length === 3) {
+      cleaned = cleaned.replace(/\./g, '');
+    }
+  }
+
+  const num = Number(cleaned);
+  return Number.isFinite(num) ? num : null;
+}
+
+/**
+ * Normalise les chaînes de caractères pour comparaison insensible
+ */
+export function normalize(str) {
   return String(str || '')
     .toLowerCase()
     .normalize('NFD')
