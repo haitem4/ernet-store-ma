@@ -305,7 +305,7 @@ export async function parseCatalogExcel(filePath, imageOutputDir = 'uploads/prod
           images,
           specs: {},
           description: baseName,
-          supplier: 'Disway',
+          supplier: 'ERNET STORE Maroc',
           supplierRef: sku,
         };
       }
