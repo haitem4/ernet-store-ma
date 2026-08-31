@@ -273,7 +273,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "PER760XS1A",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -298,7 +297,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "PER760XS4A",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -323,7 +321,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "412-BBHD",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -348,7 +345,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "407-BCBN",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -373,7 +369,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "330-BCVV",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -398,7 +393,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P87461-425",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -423,7 +417,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P87461-425",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -448,7 +441,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P87461-425",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -473,7 +465,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P87461-425",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -498,7 +489,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P87461-425",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -523,7 +513,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P87461-425",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -548,7 +537,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P87461-425",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -573,7 +561,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P87461-425",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -598,7 +585,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P87461-425",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -623,7 +609,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P87461-425",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -648,7 +633,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P87461-425",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -673,7 +657,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P87461-425",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -698,7 +681,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 3,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P65397-421",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -723,7 +705,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 3,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P65397-421",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -748,7 +729,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 3,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P65397-421",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -773,7 +753,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 3,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P65397-421",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -798,7 +777,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 3,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P65397-421",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -823,7 +801,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 3,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P65397-421",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -848,7 +825,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 3,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P65397-421",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -873,7 +849,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 3,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P65397-421",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -898,7 +873,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 3,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P65397-421",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -923,7 +897,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 3,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P65397-421",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -948,7 +921,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 3,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P65397-421",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -973,7 +945,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 3,
     "isNew": true,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P65397-421",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -998,7 +969,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 1,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P65096-421",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1023,7 +993,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 1,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P65096-421",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1048,7 +1017,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 1,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P65096-421",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1073,7 +1041,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 1,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P65096-421",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1098,7 +1065,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 1,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P65096-421",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1123,7 +1089,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 1,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P65096-421",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1148,7 +1113,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "400-AUST",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1173,7 +1137,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "400-BEGI",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1198,7 +1161,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "161-BBRC",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1223,7 +1185,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "338-CPCF",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1248,7 +1209,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "540-BBVM",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1273,7 +1233,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "540-BDID",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1298,7 +1257,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "405-AAZY",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1323,7 +1281,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "450-AMJC",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1348,7 +1305,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "OVB_10G_SR",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1373,7 +1329,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "400-AUST",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1398,7 +1353,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "400-BEGI",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1423,7 +1377,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "161-BBRC",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1448,7 +1401,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "338-CPCF",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1473,7 +1425,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "540-BBVM",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1498,7 +1449,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "540-BDID",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1523,7 +1473,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "405-AAZY",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1548,7 +1497,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "450-AMJC",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1573,7 +1521,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "OVB_10G_SR",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1598,7 +1545,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "400-AUST",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1623,7 +1569,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "400-BEGI",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1648,7 +1593,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "161-BBRC",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1673,7 +1617,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "338-CPCF",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1698,7 +1641,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "540-BBVM",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1723,7 +1665,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "540-BDID",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1748,7 +1689,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "405-AAZY",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1773,7 +1713,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "450-AMJC",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1798,7 +1737,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "OVB_10G_SR",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1823,7 +1761,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "EGE-400M-72",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1848,7 +1785,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "EGE-450W-120M",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1873,7 +1809,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "EGE-550W-144",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1898,7 +1833,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "EGE-PSW-700P/12V",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1923,7 +1857,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "EGE-PSW-700P",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1948,7 +1881,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "EGE-PSW-1000P",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1973,7 +1905,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "EGE-PSW-1500P",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -1998,7 +1929,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "JKM550M-72HL4-V",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2023,7 +1953,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "345-BDRK",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2048,7 +1977,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS124",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2073,7 +2001,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS124",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2098,7 +2025,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS124",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2123,7 +2049,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS124",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2148,7 +2073,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS124",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2173,7 +2097,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS124",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2198,7 +2121,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS124",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2223,7 +2145,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS124",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2248,7 +2169,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS124",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2273,7 +2193,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS124",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2298,7 +2217,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS124",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2323,7 +2241,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS124",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2348,7 +2265,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS124",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2373,7 +2289,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS124",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2398,7 +2313,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS124",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2423,7 +2337,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS124",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2448,7 +2361,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS124",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2473,7 +2385,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS124",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2498,7 +2409,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS223J",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2523,7 +2433,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS223J",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2548,7 +2457,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS223J",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2573,7 +2481,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS223J",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2598,7 +2505,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS223J",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2623,7 +2529,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS223J",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2648,7 +2553,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS223J",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2673,7 +2577,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS223J",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2698,7 +2601,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS223J",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2723,7 +2625,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS223J",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2748,7 +2649,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS223J",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2773,7 +2673,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS223J",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2798,7 +2697,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS223J",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2823,7 +2721,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS223J",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2848,7 +2745,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS223J",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2873,7 +2769,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS223J",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2898,7 +2793,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS4128F-SFP",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2923,7 +2817,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS4128F-20SFP",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2948,7 +2841,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS4128F-48SFP",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2973,7 +2865,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS4128F-SFP",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -2998,7 +2889,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS4128F-20SFP",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3023,7 +2913,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS4128F-48SFP",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3048,7 +2937,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS4128F-SFP",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3073,7 +2961,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS4128F-20SFP",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3098,7 +2985,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "DS4128F-48SFP",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3123,7 +3009,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "HM-20",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3148,7 +3033,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "EMETER-20",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3173,7 +3057,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "EDMM-10",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3198,7 +3081,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "HM-20",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3223,7 +3105,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "EMETER-20",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3248,7 +3129,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "EDMM-10",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3273,7 +3153,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "HM-20",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3298,7 +3177,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "EMETER-20",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3323,7 +3201,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "EDMM-10",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3348,7 +3225,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "4463C007AD",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3373,7 +3249,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "3771C007BA",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3398,7 +3273,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "2226C007AA",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3423,7 +3297,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "2315C009AB",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3448,7 +3321,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "5989C009AA",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3473,7 +3345,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "8468B002AA",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3498,7 +3369,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "5162C008BA",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3523,7 +3393,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "5952C013AA",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3548,7 +3417,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "5952C006AA",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3573,7 +3441,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "5621C001AA",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3598,7 +3465,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "5951C020AA",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3623,7 +3489,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "5951C008AA",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3648,7 +3513,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "5951C007AA",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3673,7 +3537,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "5158C009AA",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3698,7 +3561,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "5158C004AA",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3723,7 +3585,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "5158C001AA",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3748,7 +3609,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "5455C012AA",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3773,7 +3633,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL   WIFI + BLUETOOTH",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3798,7 +3657,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3823,7 +3681,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3848,7 +3705,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3873,7 +3729,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3898,7 +3753,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3923,7 +3777,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3948,7 +3801,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3973,7 +3825,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -3998,7 +3849,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4023,7 +3873,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4048,7 +3897,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 36802,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P R E C I S I O N 3680/ New Dell Pro Max Tower T2",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4073,7 +3921,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4098,7 +3945,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4123,7 +3969,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 1,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4148,7 +3993,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4173,7 +4017,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 1,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4198,7 +4041,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4223,7 +4065,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4248,7 +4089,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4273,7 +4113,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4298,7 +4137,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4323,7 +4161,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4348,7 +4185,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4373,7 +4209,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4398,7 +4233,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 1,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4423,7 +4257,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4448,7 +4281,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4473,7 +4305,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4498,7 +4329,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4523,7 +4353,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4548,7 +4377,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4573,7 +4401,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4598,7 +4425,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 1425016250,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "Dell Pro PC14250 / PC16250",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4623,7 +4449,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 1,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4648,7 +4473,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "EP2-06843",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4673,7 +4497,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "EP2-06659",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4698,7 +4521,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "QQ2-01735",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4723,7 +4545,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "6GQ-01921",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4748,7 +4569,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "KLQ-00667",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4773,7 +4593,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P73-08329",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4798,7 +4617,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "P73-08347",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4823,7 +4641,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LH16-0001",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4848,7 +4665,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LH1P-0001",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4873,7 +4689,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LH0L-0001",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4898,7 +4713,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LH18-0001",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4923,7 +4737,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LH18-000P",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4948,7 +4761,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LH1G-0001",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4973,7 +4785,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LDPB-0001",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -4998,7 +4809,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LDPB-0011",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5023,7 +4833,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LCHC-0002",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5048,7 +4857,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LCHCC-000N",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5073,7 +4881,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LF8Q-0001",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5098,7 +4905,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LF8Q-001S",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5123,7 +4929,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LGZT-0001",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5148,7 +4953,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LF8R-0001",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5173,7 +4977,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LF8R-0020",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5198,7 +5001,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LF8S-0001",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5223,7 +5025,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LF8S-001G",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5248,7 +5049,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LFLX-0001",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5273,7 +5073,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LFLX-0021",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5298,7 +5097,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LFLZ-0003",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5323,7 +5121,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7RRC0LFLZ-001P",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5348,7 +5145,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0MM8R-0002",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5373,7 +5169,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LH04-0001",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5398,7 +5193,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LHXH-0001",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5423,7 +5217,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0JN4R-0002",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5448,7 +5241,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LH0T-0001",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5473,7 +5265,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0QW7C-0006",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5498,7 +5289,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "CFQ7TTC0LH0V-0001",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5523,7 +5313,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "Toner Magnétique pour CMC7 et E13B",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5548,7 +5337,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5573,7 +5361,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5598,7 +5385,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5623,7 +5409,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5648,7 +5433,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5673,7 +5457,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5698,7 +5481,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5723,7 +5505,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5748,7 +5529,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5773,7 +5553,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5798,7 +5577,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5823,7 +5601,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5848,7 +5625,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5873,7 +5649,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5898,7 +5673,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5923,7 +5697,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5948,7 +5721,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5973,7 +5745,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -5998,7 +5769,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6023,7 +5793,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6048,7 +5817,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6073,7 +5841,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6098,7 +5865,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "Toner Magnétique pour CMC7 et E13B",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6123,7 +5889,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6148,7 +5913,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6173,7 +5937,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6198,7 +5961,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6223,7 +5985,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6248,7 +6009,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6273,7 +6033,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6298,7 +6057,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6323,7 +6081,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6348,7 +6105,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6373,7 +6129,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "ENTREPRISE",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6398,7 +6153,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "842D2AA#ABB",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6423,7 +6177,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "9W1A6AA#AC3",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6448,7 +6201,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6473,7 +6225,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "842D2AA#ABB",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6498,7 +6249,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": true,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "9W1A6AA#AC3",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6523,7 +6273,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6548,7 +6297,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": true,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "842D2AA#ABB",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6573,7 +6321,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "9W1A6AA#AC3",
       "Garantie": "Constructeur 1 à 3 ans",
@@ -6598,7 +6345,6 @@ export const FALLBACK_PRODUCTS = [
     "stock": 10,
     "isNew": false,
     "isFeatured": false,
-    "supplier": "ERNET STORE Maroc",
     "specs": {
       "Réf. Fournisseur": "COMMERCIAL",
       "Garantie": "Constructeur 1 à 3 ans",

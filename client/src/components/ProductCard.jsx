@@ -111,7 +111,6 @@ export default function ProductCard({
         )}
         {product?.isNew && <span className="badge badge--new">{t('new')}</span>}
         {product?.isFeatured && <span className="badge badge--featured">{t('hot') || 'Top'}</span>}
-        {product?.supplier && <span className="badge badge--supplier">{product.supplier}</span>}
       </div>
 
       <Link to={`/produit/${product.slug}`} className="product-card-link" aria-label={`Voir ${product?.name}`}>
@@ -180,14 +179,14 @@ export default function ProductCard({
         )}
       </div>
 
-      {/* Trust indicators for B2B */}
-      {product?.supplier && (
+      {/* Trust indicators */}
+      {variant !== 'compact' && (
         <div className="product-card-trust">
           <span className="trust-item">
-            <TruckIcon size={14} /> Livraison rapide
+            <TruckIcon size={14} /> Livraison 24/48h
           </span>
           <span className="trust-item">
-            <ShieldIcon size={14} /> Garantie {product.warranty || '1 an'}
+            <ShieldIcon size={14} /> Garantie {product?.warranty || 'Constructeur'}
           </span>
         </div>
       )}
