@@ -53,20 +53,14 @@ export function cleanNumeric(val) {
   if (val === null || val === undefined) return null;
   if (typeof val === 'number') return isFinite(val) ? val : null;
   if (typeof val === 'object') {
-    if (val.result !== undefined) return cleanNumeric(val.result);
-    val = getCellValueAsString(val);
+    if (val.result !== undefined && val.result !== null) return cleanNumeric(val.result);
   }
-  const str = String(val).replace(/[^\d.,]/g, '').replace(/\s/g, '');
-  if (!str) return null;
-  const clean = str.replace(',', '.');
-  const num = parseFloat(clean);
-  return isFinite(num) ? num : null;
-}
 
-/**
- * Normalise les chaînes de caractères pour comparaison insensible
- */
-export function normalize(str) {
+  let cleaned = String(val).trim();
+  if (!cleaned) return null;
+
+  // Supprimer les unités ou symboles de devises
+  if (/^\d+\s*(to|tb|go|gb|mo|mb|ko|kb)$/i.test(cleaned)) return null;
   return String(str || '')
     .toLowerCase()
     .normalize('NFD')
