@@ -11,6 +11,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "test": "node --test src/utils/slug.test.js src/utils/auth.test.js src/services/cmi.test.js src/services/pricing.test.js",
+    "etl:import": "node src/etl/run-etl.js",
     "disway:import": "node run-import.js",
     "disway:sync": "node sync-disway.js",
     "disway:sync:dry": "node sync-disway.js --dry-run",
@@ -23,8 +24,10 @@
   "dependencies": {
     "@prisma/client": "^5.10.2",
     "bcryptjs": "^2.4.3",
+    "bullmq": "^6.3.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
     "express": "^4.18.3",
     "express-rate-limit": "^7.1.5",
     "helmet": "^7.1.0",
