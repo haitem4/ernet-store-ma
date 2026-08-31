@@ -1,5 +1,5 @@
 // ============================================================
-// ERNET STORE — Catalogue Réel Disway avec Images Officielles Importées
+// ERNET STORE — Catalogue Réel avec 100% des Images Physiques Locales
 // ============================================================
 
 export const FALLBACK_CATEGORIES = [
@@ -280,7 +280,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/PER760XS1A.jpg"
     ],
     "description": "DELL PowerEdge R760XS       \nProcesseur Intel Xeon Silver 4510 2.4G, 12C/24T, 16GT/s, 30M Cache, Turbo, HT (150W) DDR5-4400) DDR5-4000\nMemoire 2x32GB RDIMM, 5600MT/s, Dual Rank  64GB\n2,5\"x16 Hot plug Disque dur de 2x480GoSSD \nPERC H755 Unconfigured RAID \nConnexion 5720  6 PORTS RJ45 1GbE BASE-T \nAdministration à distance  iDRAC9, Enterprise 16G\nDual Redundant(1+1) Power Supply\n3 Ans de Garantie Pro support"
   },
@@ -305,7 +305,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/PER760XS4A.png"
+      "/assets/products/PER760XS4A.jpg"
     ],
     "description": "DELL PowerEdge R760XS       \nDOUBLE Processeur Intel Xeon Silver 2x4510 2.4G, 12C/24T, 16GT/s, 30M Cache, Turbo, HT (150W) DDR5-4400) DDR5-4000\nMemoire 4x32GB RDIMM, 5600MT/s, Dual Rank 128GB\n2,5\"x16 Hot plug Disque dur de 2x480GoSSD \nPERC H755 Unconfigured RAID \nConnexion 5720  6 PORTS RJ45 1GbE BASE-T \nAdministration à distance  iDRAC9, Enterprise 16G\nDual Redundant(1+1) Power Supply\n3 Ans de Garantie Pro support | DELL PowerEdge R760XS       \nProcesseur Intel Xeon Silver 4410Y 2.4G, 12C/24T, 16GT/s, 30M Cache, Turbo, HT (150W) DDR5-4400) DDR5-4000\nMemoire 1x32GB RDIMM, 5600MT/s, Dual Rank  \n2,5\"x16 Hot plug Disque dur de 1x480GoSSD \nPERC H755 Unconfigured RAID \nConnexion 5720  6 PORTS RJ45 1GbE BASE-T \nAdministration à distance  iDRAC9, Enterprise 16G\nDual Redundant(1+1) Power Supply\n3 Ans de Garantie Pro support"
   },
@@ -330,7 +330,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/412-BBHD.png"
+      "/assets/products/412-BBHD.jpg"
     ],
     "description": "DELL Standard Heatsink PowerEdge R760xs Cus Kit R760XS"
   },
@@ -355,7 +355,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/407-BCBN.jpg"
     ],
     "description": "Kit - Dell EMC PowerEdge SFP+ SR Optic 10GbE 850nm"
   },
@@ -380,7 +380,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/330-BCVV.png"
+      "/assets/products/330-BCVV.jpg"
     ],
     "description": "Riser Config 2 Butterfly Gen4 Riser (x8/x8) PowerEdge R360 CK"
   },
@@ -405,7 +405,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P87461-425.png"
+      "/assets/products/P87461-425.jpg"
     ],
     "description": "HPE ML30G11 4LFF-NHP 6315P(4c/2.8GHz/55w) 1x32G SATA-VROC 4p-1GbE-BCM5719 + 2x1TB SATA HDD 1x350W"
   },
@@ -430,7 +430,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P87461-425.png"
+      "/assets/products/P87461-425.jpg"
     ],
     "description": "1x Intel Xeon  6315P 4c/2.8GHz/55w"
   },
@@ -455,7 +455,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P87461-425.png"
+      "/assets/products/P87461-425.jpg"
     ],
     "description": "1x 32GB UDIMM DDR4 4800 MT/s [P64336-B21] / extensible à 128GB sur 4 Slots"
   },
@@ -480,7 +480,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P87461-425.png"
+      "/assets/products/P87461-425.jpg"
     ],
     "description": "Intel VROC SATA RAID Software intégré (Les disques SAS ne sont pas supportés)"
   },
@@ -505,7 +505,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P87461-425.png"
+      "/assets/products/P87461-425.jpg"
     ],
     "description": "Cage 4LFF 3,5\" HDD Non Hotplug  + 2x1TB SATA"
   },
@@ -530,7 +530,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P87461-425.png"
+      "/assets/products/P87461-425.jpg"
     ],
     "description": "Contrôleur réseau intégré  BCM5719 avec 4 ports 1GbE RJ45"
   },
@@ -555,7 +555,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P87461-425.png"
+      "/assets/products/P87461-425.jpg"
     ],
     "description": "1x PCIe 5.0 slots, 3x PCIe 4.0 slots"
   },
@@ -580,7 +580,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P87461-425.png"
+      "/assets/products/P87461-425.jpg"
     ],
     "description": "Trusted Platform Module (TPM 2.0 intégré )"
   },
@@ -605,7 +605,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P87461-425.png"
+      "/assets/products/P87461-425.jpg"
     ],
     "description": "1x HPE 800W Flex Slot Titanium Hot PlugLow Halogen Power Supply Kit (Pas de redondance)"
   },
@@ -630,7 +630,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P87461-425.png"
+      "/assets/products/P87461-425.jpg"
     ],
     "description": "1x VGA / 1x Display Port / 8x USB (4 arrière, 2 avant, 2 interne)\n4x RJ45 + un partagé pour iLO (port iLO dédié optionnel)"
   },
@@ -655,7 +655,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P87461-425.png"
+      "/assets/products/P87461-425.jpg"
     ],
     "description": "iLO Standard avec Intelligent Provisioning, OneView Standard à télécharger\nLes licences Advanced sont optionnelles, payantes"
   },
@@ -680,7 +680,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P87461-425.png"
+      "/assets/products/P87461-425.jpg"
     ],
     "description": "3ans de garantie HPE Basic dont 1an sur site NBD (jour ouvré suivant)"
   },
@@ -705,7 +705,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P65397-421.png"
+      "/assets/products/P65397-421.jpg"
     ],
     "description": "HPE ML30G11 8SFF E-2434 3.4GHz-4c 16GB RAID-SATA-VROC 4p-1GbE-BCM5719 800wT (3-1-1)"
   },
@@ -730,7 +730,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P65397-421.png"
+      "/assets/products/P65397-421.jpg"
     ],
     "description": "1x Intel Xeon E-2434 3.4GHz 4-core 12 MB 55w"
   },
@@ -755,7 +755,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P65397-421.png"
+      "/assets/products/P65397-421.jpg"
     ],
     "description": "1x 16GB UDIMM DDR4 4800 MT/s [P64336-B21] / extensible à 128GB sur 4 Slots"
   },
@@ -780,7 +780,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P65397-421.png"
+      "/assets/products/P65397-421.jpg"
     ],
     "description": "Intel VROC SATA RAID Software intégré (Les disques SAS ne sont pas supportés)"
   },
@@ -805,7 +805,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P65397-421.png"
+      "/assets/products/P65397-421.jpg"
     ],
     "description": "Cage 8SFF 2,5\" HDD  Hot-Plug (sans disques) + 1 Slot M.2"
   },
@@ -830,7 +830,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P65397-421.png"
+      "/assets/products/P65397-421.jpg"
     ],
     "description": "Contrôleur réseau intégré  BCM5719 avec 4 ports 1GbE RJ45"
   },
@@ -855,7 +855,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P65397-421.png"
+      "/assets/products/P65397-421.jpg"
     ],
     "description": "1x PCIe 5.0 slots, 3x PCIe 4.0 slots"
   },
@@ -880,7 +880,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P65397-421.png"
+      "/assets/products/P65397-421.jpg"
     ],
     "description": "Trusted Platform Module (TPM 2.0 intégré )"
   },
@@ -905,7 +905,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P65397-421.png"
+      "/assets/products/P65397-421.jpg"
     ],
     "description": "1x HPE 800W Flex Slot Titanium Hot PlugLow Halogen Power Supply Kit ( Possibilité de redondance, 865438-B21)"
   },
@@ -930,7 +930,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P65397-421.png"
+      "/assets/products/P65397-421.jpg"
     ],
     "description": "1x VGA / 1x Display Port / 8x USB (4 arrière, 2 avant, 2 interne)\n4x RJ45 + un partagé pour iLO (port iLO dédié optionnel)"
   },
@@ -955,7 +955,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P65397-421.png"
+      "/assets/products/P65397-421.jpg"
     ],
     "description": "iLO Standard avec Intelligent Provisioning, OneView Standard à télécharger\nLes licences Advanced sont optionnelles, payantes"
   },
@@ -980,7 +980,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P65397-421.png"
+      "/assets/products/P65397-421.jpg"
     ],
     "description": "3ans de garantie HPE Basic dont 1an sur site NBD (jour ouvré suivant)"
   },
@@ -1005,7 +1005,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P65096-421.png"
+      "/assets/products/P65096-421.jpg"
     ],
     "description": "HPE ML30G11 8SFF E-2436 2.9GHz-6c 16GB RAID-SATA-VROC 4p-1GbE-BCM5719 800wT (3-1-1)"
   },
@@ -1030,7 +1030,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P65096-421.png"
+      "/assets/products/P65096-421.jpg"
     ],
     "description": "1x Intel Xeon E-2436 (6 core, 2.9 GHz, 65W)"
   },
@@ -1055,7 +1055,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P65096-421.png"
+      "/assets/products/P65096-421.jpg"
     ],
     "description": "1x 16GB UDIMM DDR4 4800 MT/s [P64336-B21] / extensible à 128GB sur 4 Slots"
   },
@@ -1080,7 +1080,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P65096-421.png"
+      "/assets/products/P65096-421.jpg"
     ],
     "description": "Intel VROC SATA RAID Software intégré (Les disques SAS ne sont pas supportés)"
   },
@@ -1105,7 +1105,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P65096-421.png"
+      "/assets/products/P65096-421.jpg"
     ],
     "description": "Cage 8SFF 2,5\" HDD Hotplug (sans disques) + 1 Slot M.2"
   },
@@ -1130,7 +1130,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P65096-421.png"
+      "/assets/products/P65096-421.jpg"
     ],
     "description": "Contrôleur réseau intégré  BCM5719 avec 4 ports 1GbE RJ45"
   },
@@ -1155,7 +1155,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/400-AUST.jpg"
     ],
     "description": "2TB 7.2K RPM SATA 6Gbps 512n 3.5in Cabled Hard Drive CK, T150,T160"
   },
@@ -1180,7 +1180,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/400-BEGI.png"
+      "/assets/products/400-BEGI.jpg"
     ],
     "description": "Dell 2.4TB 10K RPM SAS 12Gbps 512e 2.5in Hot-plug drive 12M R360,, R750xs,R760XS"
   },
@@ -1205,7 +1205,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/161-BBRC.png"
+      "/assets/products/161-BBRC.jpg"
     ],
     "description": "2TB Hard Drive SATA 6Gbps 7.2K 512n 3.5in Hot-Plug, CUS Kit, T350, T360"
   },
@@ -1230,7 +1230,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1563770660941-20978e870e26?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/338-CPCF.jpg"
     ],
     "description": "DELL Intel Xeon Silver 4510 2.4G 12C/24T 16GT/s 30M Cache Turbo HT (150W) DDR5-440 R760XS"
   },
@@ -1255,7 +1255,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/540-BBVM.png"
+      "/assets/products/540-BBVM.jpg"
     ],
     "description": "Broadcom 57416 Dual Port 10Gb Base-T PCIe Adapter Low Profile  R360,R750XS,R760XS"
   },
@@ -1280,7 +1280,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/540-BDID.png"
+      "/assets/products/540-BDID.jpg"
     ],
     "description": "Broadcom 57414 Dual Port 10/25GbE SFP28 Adapter, PCIe Low Profile, V2 R360, R760XS"
   },
@@ -1305,7 +1305,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/405-AAZY.png"
+      "/assets/products/405-AAZY.jpg"
     ],
     "description": "Dell HBA355e Adapter Low Profile/Full height,Customer install 36M"
   },
@@ -1330,7 +1330,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/450-AMJC.png"
+      "/assets/products/450-AMJC.jpg"
     ],
     "description": "Single, Hot-Plug, Power Supply, 700W MM HLAC (200-240Vac) Titanium   R360  T360 new generation"
   },
@@ -1355,7 +1355,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/OVB_10G_SR.png"
+      "/assets/products/OVB_10G_SR.jpg"
     ],
     "description": "40  Dell Networking, Transceiver, SFP+, 10GbE, SR, 850nm Wavelength, 300m Reach"
   },
@@ -1380,7 +1380,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/400-AUST.jpg"
     ],
     "description": "2TB 7.2K RPM SATA 6Gbps 512n 3.5in Cabled Hard Drive CK, T150,T160"
   },
@@ -1405,7 +1405,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/400-BEGI.png"
+      "/assets/products/400-BEGI.jpg"
     ],
     "description": "Dell 2.4TB 10K RPM SAS 12Gbps 512e 2.5in Hot-plug drive 12M R360,, R750xs,R760XS"
   },
@@ -1430,7 +1430,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/161-BBRC.png"
+      "/assets/products/161-BBRC.jpg"
     ],
     "description": "2TB Hard Drive SATA 6Gbps 7.2K 512n 3.5in Hot-Plug, CUS Kit, T350, T360"
   },
@@ -1455,7 +1455,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/338-CPCF.jpg"
     ],
     "description": "DELL Intel Xeon Silver 4510 2.4G 12C/24T 16GT/s 30M Cache Turbo HT (150W) DDR5-440 R760XS"
   },
@@ -1480,7 +1480,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/540-BBVM.png"
+      "/assets/products/540-BBVM.jpg"
     ],
     "description": "Broadcom 57416 Dual Port 10Gb Base-T PCIe Adapter Low Profile  R360,R750XS,R760XS"
   },
@@ -1505,7 +1505,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/540-BDID.png"
+      "/assets/products/540-BDID.jpg"
     ],
     "description": "Broadcom 57414 Dual Port 10/25GbE SFP28 Adapter, PCIe Low Profile, V2 R360, R760XS"
   },
@@ -1530,7 +1530,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/405-AAZY.png"
+      "/assets/products/405-AAZY.jpg"
     ],
     "description": "Dell HBA355e Adapter Low Profile/Full height,Customer install 36M"
   },
@@ -1555,7 +1555,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/450-AMJC.png"
+      "/assets/products/450-AMJC.jpg"
     ],
     "description": "Single, Hot-Plug, Power Supply, 700W MM HLAC (200-240Vac) Titanium   R360  T360 new generation"
   },
@@ -1580,7 +1580,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/OVB_10G_SR.png"
+      "/assets/products/OVB_10G_SR.jpg"
     ],
     "description": "40  Dell Networking, Transceiver, SFP+, 10GbE, SR, 850nm Wavelength, 300m Reach"
   },
@@ -1605,7 +1605,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/400-AUST.jpg"
     ],
     "description": "2TB 7.2K RPM SATA 6Gbps 512n 3.5in Cabled Hard Drive CK, T150,T160"
   },
@@ -1630,7 +1630,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/400-BEGI.png"
+      "/assets/products/400-BEGI.jpg"
     ],
     "description": "Dell 2.4TB 10K RPM SAS 12Gbps 512e 2.5in Hot-plug drive 12M R360,, R750xs,R760XS"
   },
@@ -1655,7 +1655,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/161-BBRC.png"
+      "/assets/products/161-BBRC.jpg"
     ],
     "description": "2TB Hard Drive SATA 6Gbps 7.2K 512n 3.5in Hot-Plug, CUS Kit, T350, T360"
   },
@@ -1680,7 +1680,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1563770660941-20978e870e26?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/338-CPCF.jpg"
     ],
     "description": "DELL Intel Xeon Silver 4510 2.4G 12C/24T 16GT/s 30M Cache Turbo HT (150W) DDR5-440 R760XS"
   },
@@ -1705,7 +1705,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/540-BBVM.png"
+      "/assets/products/540-BBVM.jpg"
     ],
     "description": "Broadcom 57416 Dual Port 10Gb Base-T PCIe Adapter Low Profile  R360,R750XS,R760XS"
   },
@@ -1730,7 +1730,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/540-BDID.png"
+      "/assets/products/540-BDID.jpg"
     ],
     "description": "Broadcom 57414 Dual Port 10/25GbE SFP28 Adapter, PCIe Low Profile, V2 R360, R760XS"
   },
@@ -1755,7 +1755,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/405-AAZY.png"
+      "/assets/products/405-AAZY.jpg"
     ],
     "description": "Dell HBA355e Adapter Low Profile/Full height,Customer install 36M"
   },
@@ -1780,7 +1780,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/450-AMJC.png"
+      "/assets/products/450-AMJC.jpg"
     ],
     "description": "Single, Hot-Plug, Power Supply, 700W MM HLAC (200-240Vac) Titanium   R360  T360 new generation"
   },
@@ -1805,7 +1805,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/OVB_10G_SR.png"
+      "/assets/products/OVB_10G_SR.jpg"
     ],
     "description": "40  Dell Networking, Transceiver, SFP+, 10GbE, SR, 850nm Wavelength, 300m Reach"
   },
@@ -1830,7 +1830,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/EGE-400M-72.jpg"
     ],
     "description": "ECOGREEN 72 cells 400 Wc Mono PERC 20.16%"
   },
@@ -1855,7 +1855,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/EGE-450W-120M.png"
+      "/assets/products/EGE-450W-120M.jpg"
     ],
     "description": "ECOGREEN 120 cells 450 Wc Mono PERC HC 20.79% 144M"
   },
@@ -1880,7 +1880,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/EGE-550W-144.jpg"
     ],
     "description": "ECOGREEN 144 cells 550 Wc Mono PERC HC 21.28 %  144M"
   },
@@ -1905,7 +1905,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/EGE-PSW-700P_12V.jpg"
     ],
     "description": "ECOGREEN Onduleur Pure Sine Wave 700 W, 12V 12M"
   },
@@ -1930,7 +1930,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/EGE-PSW-700P.jpg"
     ],
     "description": "ECOGREEN Onduleur Pure Sine Wave 700 W, 24V"
   },
@@ -1955,7 +1955,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/EGE-PSW-1000P.jpg"
     ],
     "description": "ECOGREEN Onduleur Pure Sine Wave 1000 W, 24V"
   },
@@ -1980,7 +1980,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/EGE-PSW-1500P.jpg"
     ],
     "description": "ECOGREEN Onduleur Pure Sine Wave 1500 W, 48V"
   },
@@ -2005,7 +2005,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/JKM550M-72HL4-V.png"
+      "/assets/products/JKM550M-72HL4-V.jpg"
     ],
     "description": "JINKO Tiger Pro 72HC, 550Wc Mono PERC 21.33% 1500V 144M"
   },
@@ -2030,7 +2030,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/345-BDRK.png"
+      "/assets/products/345-BDRK.jpg"
     ],
     "description": "960GB SSD SATA Read Intensive 6Gbps 512e  2.5in Hot-Plug, CUS Kit  R360,, R750xs,R760XS"
   },
@@ -2055,7 +2055,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS124.png"
+      "/assets/products/DS124.jpg"
     ],
     "description": "DS124"
   },
@@ -2080,7 +2080,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS124.png"
+      "/assets/products/DS124.jpg"
     ],
     "description": "DS124"
   },
@@ -2105,7 +2105,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS124.png"
+      "/assets/products/DS124.jpg"
     ],
     "description": "DS124"
   },
@@ -2130,7 +2130,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS124.png"
+      "/assets/products/DS124.jpg"
     ],
     "description": "DS124"
   },
@@ -2155,7 +2155,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS124.png"
+      "/assets/products/DS124.jpg"
     ],
     "description": "DS124"
   },
@@ -2180,7 +2180,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS124.png"
+      "/assets/products/DS124.jpg"
     ],
     "description": "DS124"
   },
@@ -2205,7 +2205,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS124.png"
+      "/assets/products/DS124.jpg"
     ],
     "description": "DS124"
   },
@@ -2230,7 +2230,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS124.png"
+      "/assets/products/DS124.jpg"
     ],
     "description": "DS124"
   },
@@ -2255,7 +2255,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS124.png"
+      "/assets/products/DS124.jpg"
     ],
     "description": "DS124"
   },
@@ -2280,7 +2280,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS124.png"
+      "/assets/products/DS124.jpg"
     ],
     "description": "DS124"
   },
@@ -2305,7 +2305,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS124.png"
+      "/assets/products/DS124.jpg"
     ],
     "description": "DS124"
   },
@@ -2330,7 +2330,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS124.png"
+      "/assets/products/DS124.jpg"
     ],
     "description": "DS124"
   },
@@ -2355,7 +2355,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS124.png"
+      "/assets/products/DS124.jpg"
     ],
     "description": "DS124"
   },
@@ -2380,7 +2380,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS124.png"
+      "/assets/products/DS124.jpg"
     ],
     "description": "DS124"
   },
@@ -2405,7 +2405,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS124.png"
+      "/assets/products/DS124.jpg"
     ],
     "description": "DS124"
   },
@@ -2430,7 +2430,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS124.png"
+      "/assets/products/DS124.jpg"
     ],
     "description": "DS124"
   },
@@ -2455,7 +2455,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS124.png"
+      "/assets/products/DS124.jpg"
     ],
     "description": "DS124"
   },
@@ -2480,7 +2480,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS124.png"
+      "/assets/products/DS124.jpg"
     ],
     "description": "DS124"
   },
@@ -2505,7 +2505,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS223J.png"
+      "/assets/products/DS223J.jpg"
     ],
     "description": "DS223J"
   },
@@ -2530,7 +2530,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS223J.png"
+      "/assets/products/DS223J.jpg"
     ],
     "description": "DS223J"
   },
@@ -2555,7 +2555,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS223J.png"
+      "/assets/products/DS223J.jpg"
     ],
     "description": "DS223J"
   },
@@ -2580,7 +2580,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS223J.png"
+      "/assets/products/DS223J.jpg"
     ],
     "description": "DS223J"
   },
@@ -2605,7 +2605,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS223J.png"
+      "/assets/products/DS223J.jpg"
     ],
     "description": "DS223J"
   },
@@ -2630,7 +2630,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS223J.png"
+      "/assets/products/DS223J.jpg"
     ],
     "description": "DS223J"
   },
@@ -2655,7 +2655,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS223J.png"
+      "/assets/products/DS223J.jpg"
     ],
     "description": "DS223J"
   },
@@ -2680,7 +2680,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS223J.png"
+      "/assets/products/DS223J.jpg"
     ],
     "description": "DS223J"
   },
@@ -2705,7 +2705,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS223J.png"
+      "/assets/products/DS223J.jpg"
     ],
     "description": "DS223J"
   },
@@ -2730,7 +2730,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS223J.png"
+      "/assets/products/DS223J.jpg"
     ],
     "description": "DS223J"
   },
@@ -2755,7 +2755,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS223J.png"
+      "/assets/products/DS223J.jpg"
     ],
     "description": "DS223J"
   },
@@ -2780,7 +2780,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS223J.png"
+      "/assets/products/DS223J.jpg"
     ],
     "description": "DS223J"
   },
@@ -2805,7 +2805,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS223J.png"
+      "/assets/products/DS223J.jpg"
     ],
     "description": "DS223J"
   },
@@ -2830,7 +2830,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS223J.png"
+      "/assets/products/DS223J.jpg"
     ],
     "description": "DS223J"
   },
@@ -2855,7 +2855,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS223J.png"
+      "/assets/products/DS223J.jpg"
     ],
     "description": "DS223J"
   },
@@ -2880,7 +2880,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS223J.png"
+      "/assets/products/DS223J.jpg"
     ],
     "description": "DS223J"
   },
@@ -2905,7 +2905,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS4128F-SFP.png"
+      "/assets/products/DS4128F-SFP.jpg"
     ],
     "description": "Dell EMC Switch S4128F-ON, 1U, PHYless,28 x 10GbE SFP+, 2 x QSFP28, Ioto PSU, 2 PSU 8\n\n2 C13 Power Cord 220V 1.8M EUR  \nDell Networking, Cable, QSFP+ to QSFP+, 40GbE Passive Copper Direct Attach Cable, 1 Meter \nConsolidation Fee ESG \nSoftware\n1 3 Years ProSupport OS10 Enterprise Software Support-Maintenance \n1 3Yr ProSupport and Next Business Day On-Site Service"
   },
@@ -2930,7 +2930,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS4128F-20SFP.png"
+      "/assets/products/DS4128F-20SFP.jpg"
     ],
     "description": "Dell EMC Switch S4128F-ON, 1U, PHYless,28 x 10GbE SFP+, 2 x QSFP28, IO to PSU, 2 PSU 2\n\n\n2 C13 Power Cord 220V 1.8M EUR (ZR)\n1 Dell Networking, Cable, QSFP+ to QSFP+, 40GbE Passive Copper Direct Attach Cable, 1M \n20 Dell Networking, Cable, SFP+ to SFP+, 10GbE, Copper Twinax Direct Attach Cable, 3M \n1 Consolidation Fee ESG \nSoftware\n1 OS10 Enterprise S4128F-ON \nService\n1 3Yr ProSupport and Next Business Day On-Site Service (ZR)"
   },
@@ -2955,7 +2955,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS4128F-48SFP.png"
+      "/assets/products/DS4128F-48SFP.jpg"
     ],
     "description": "Dell EMC Switch S4148F-ON, 1U, 48x10GbE SFP+, 4xQSFP28, 2xQSFP+, IO to PSU, 2 PSU, OS10  8\n2 C13 Power Cord 220V 1.8M EUR Dell Networking, Cable, QSFP+ to QSFP+, 40GbE Passive Copper Direct Attach Cable, 1 Mete\nConsolidation Fee ESG \nSoftware\nOS10 Enterprise S4148F-ON \nService\n3 Years ProSupport OS10 Enterprise Software Support-Maintenance \n3Yr ProSupport and Next Business Day On-Site Service"
   },
@@ -2980,7 +2980,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS4128F-SFP.png"
+      "/assets/products/DS4128F-SFP.jpg"
     ],
     "description": "Dell EMC Switch S4128F-ON, 1U, PHYless,28 x 10GbE SFP+, 2 x QSFP28, Ioto PSU, 2 PSU 8\n\n2 C13 Power Cord 220V 1.8M EUR  \nDell Networking, Cable, QSFP+ to QSFP+, 40GbE Passive Copper Direct Attach Cable, 1 Meter \nConsolidation Fee ESG \nSoftware\n1 3 Years ProSupport OS10 Enterprise Software Support-Maintenance \n1 3Yr ProSupport and Next Business Day On-Site Service"
   },
@@ -3005,7 +3005,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS4128F-20SFP.png"
+      "/assets/products/DS4128F-20SFP.jpg"
     ],
     "description": "Dell EMC Switch S4128F-ON, 1U, PHYless,28 x 10GbE SFP+, 2 x QSFP28, IO to PSU, 2 PSU 2\n\n\n2 C13 Power Cord 220V 1.8M EUR (ZR)\n1 Dell Networking, Cable, QSFP+ to QSFP+, 40GbE Passive Copper Direct Attach Cable, 1M \n20 Dell Networking, Cable, SFP+ to SFP+, 10GbE, Copper Twinax Direct Attach Cable, 3M \n1 Consolidation Fee ESG \nSoftware\n1 OS10 Enterprise S4128F-ON \nService\n1 3Yr ProSupport and Next Business Day On-Site Service (ZR)"
   },
@@ -3030,7 +3030,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS4128F-48SFP.png"
+      "/assets/products/DS4128F-48SFP.jpg"
     ],
     "description": "Dell EMC Switch S4148F-ON, 1U, 48x10GbE SFP+, 4xQSFP28, 2xQSFP+, IO to PSU, 2 PSU, OS10  8\n2 C13 Power Cord 220V 1.8M EUR Dell Networking, Cable, QSFP+ to QSFP+, 40GbE Passive Copper Direct Attach Cable, 1 Mete\nConsolidation Fee ESG \nSoftware\nOS10 Enterprise S4148F-ON \nService\n3 Years ProSupport OS10 Enterprise Software Support-Maintenance \n3Yr ProSupport and Next Business Day On-Site Service"
   },
@@ -3055,7 +3055,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS4128F-SFP.png"
+      "/assets/products/DS4128F-SFP.jpg"
     ],
     "description": "Dell EMC Switch S4128F-ON, 1U, PHYless,28 x 10GbE SFP+, 2 x QSFP28, Ioto PSU, 2 PSU 8\n\n2 C13 Power Cord 220V 1.8M EUR  \nDell Networking, Cable, QSFP+ to QSFP+, 40GbE Passive Copper Direct Attach Cable, 1 Meter \nConsolidation Fee ESG \nSoftware\n1 3 Years ProSupport OS10 Enterprise Software Support-Maintenance \n1 3Yr ProSupport and Next Business Day On-Site Service"
   },
@@ -3080,7 +3080,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS4128F-20SFP.png"
+      "/assets/products/DS4128F-20SFP.jpg"
     ],
     "description": "Dell EMC Switch S4128F-ON, 1U, PHYless,28 x 10GbE SFP+, 2 x QSFP28, IO to PSU, 2 PSU 2\n\n\n2 C13 Power Cord 220V 1.8M EUR (ZR)\n1 Dell Networking, Cable, QSFP+ to QSFP+, 40GbE Passive Copper Direct Attach Cable, 1M \n20 Dell Networking, Cable, SFP+ to SFP+, 10GbE, Copper Twinax Direct Attach Cable, 3M \n1 Consolidation Fee ESG \nSoftware\n1 OS10 Enterprise S4128F-ON \nService\n1 3Yr ProSupport and Next Business Day On-Site Service (ZR)"
   },
@@ -3105,7 +3105,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/DS4128F-48SFP.png"
+      "/assets/products/DS4128F-48SFP.jpg"
     ],
     "description": "Dell EMC Switch S4148F-ON, 1U, 48x10GbE SFP+, 4xQSFP28, 2xQSFP+, IO to PSU, 2 PSU, OS10  8\n2 C13 Power Cord 220V 1.8M EUR Dell Networking, Cable, QSFP+ to QSFP+, 40GbE Passive Copper Direct Attach Cable, 1 Mete\nConsolidation Fee ESG \nSoftware\nOS10 Enterprise S4148F-ON \nService\n3 Years ProSupport OS10 Enterprise Software Support-Maintenance \n3Yr ProSupport and Next Business Day On-Site Service"
   },
@@ -3130,7 +3130,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/HM-20.jpg"
     ],
     "description": "SMA Sunny Home Manager 2.0: Appareil de contrôle pour la gestion intelligente de l’énergie avec un dispositif de mesure de puissance (monophasé et triphasé, bidirectionnel), raccordement au réseau local via Ethernet"
   },
@@ -3155,7 +3155,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/EMETER-20.jpg"
     ],
     "description": "SMA Energy Meter :Solution de mesure triphasée et bidirectionnelle avec interface SMA Speedwire pour déterminer les valeurs de mesure électriques (courant de limite 63A) phase par phase et servant également de compteur compensateur pour l’injection réseau et pour l’énergie prélevée"
   },
@@ -3180,7 +3180,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/EDMM-10.jpg"
     ],
     "description": "SMA DATA MANAGER M: Dispositif pour la surveillance et le pilotage des onduleurs SMA dans des installations photovoltaïques décentralisées avec un réseau Speedwire, montage mural ou sur rail DIN, prend en charge au maximum 25 onduleurs SMA et 3 systèmes I/O ou compteurs via Modbus/TCP"
   },
@@ -3205,7 +3205,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/HM-20.jpg"
     ],
     "description": "SMA Sunny Home Manager 2.0: Appareil de contrôle pour la gestion intelligente de l’énergie avec un dispositif de mesure de puissance (monophasé et triphasé, bidirectionnel), raccordement au réseau local via Ethernet"
   },
@@ -3230,7 +3230,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/EMETER-20.jpg"
     ],
     "description": "SMA Energy Meter :Solution de mesure triphasée et bidirectionnelle avec interface SMA Speedwire pour déterminer les valeurs de mesure électriques (courant de limite 63A) phase par phase et servant également de compteur compensateur pour l’injection réseau et pour l’énergie prélevée"
   },
@@ -3255,7 +3255,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/EDMM-10.jpg"
     ],
     "description": "SMA DATA MANAGER M: Dispositif pour la surveillance et le pilotage des onduleurs SMA dans des installations photovoltaïques décentralisées avec un réseau Speedwire, montage mural ou sur rail DIN, prend en charge au maximum 25 onduleurs SMA et 3 systèmes I/O ou compteurs via Modbus/TCP"
   },
@@ -3280,7 +3280,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/HM-20.jpg"
     ],
     "description": "SMA Sunny Home Manager 2.0: Appareil de contrôle pour la gestion intelligente de l’énergie avec un dispositif de mesure de puissance (monophasé et triphasé, bidirectionnel), raccordement au réseau local via Ethernet"
   },
@@ -3305,7 +3305,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/EMETER-20.jpg"
     ],
     "description": "SMA Energy Meter :Solution de mesure triphasée et bidirectionnelle avec interface SMA Speedwire pour déterminer les valeurs de mesure électriques (courant de limite 63A) phase par phase et servant également de compteur compensateur pour l’injection réseau et pour l’énergie prélevée"
   },
@@ -3330,7 +3330,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/EDMM-10.jpg"
     ],
     "description": "SMA DATA MANAGER M: Dispositif pour la surveillance et le pilotage des onduleurs SMA dans des installations photovoltaïques décentralisées avec un réseau Speedwire, montage mural ou sur rail DIN, prend en charge au maximum 25 onduleurs SMA et 3 systèmes I/O ou compteurs via Modbus/TCP"
   },
@@ -3355,7 +3355,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/4463C007AD.png"
+      "/assets/products/4463C007AD.jpg"
     ],
     "description": "CANON Jet d'encre Pixma TS3440 MFP 3 en 1,Black7.7ppm/4ppm,Wifi,R/V,A4."
   },
@@ -3380,7 +3380,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/3771C007BA.png"
+      "/assets/products/3771C007BA.jpg"
     ],
     "description": "CANON Jet d'encre Pixma TS3340 MFP 3 en 1,Black7.7ppm/4ppm,Wifi,R/V,A4."
   },
@@ -3405,7 +3405,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/2226C007AA.jpg"
     ],
     "description": "CANON Jet d'encre Pixma TS3140 MFP 3 en 1,Black7.7ppm/4ppm,Wifi,R/V,A4."
   },
@@ -3430,7 +3430,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/2315C009AB.png"
+      "/assets/products/2315C009AB.jpg"
     ],
     "description": "Canon Inktank PIXMA G3410 MFP 3en1 Réseau Wifi Black 9ppm /color 5ppm,LCD1,2cm,USB,A4"
   },
@@ -3455,7 +3455,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/5989C009AA.jpg"
     ],
     "description": "Canon Inktank PIXMA G3430 MFP 3en1 Réseau Wifi Black11ppm/color6ppm,LCD1,2cm,USB,A4"
   },
@@ -3480,7 +3480,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/8468B002AA.png"
+      "/assets/products/8468B002AA.jpg"
     ],
     "description": "Canon Laser i-SENSYS LBP6030w SFPMono SFP Wifi  18ppmA4"
   },
@@ -3505,7 +3505,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/5162C008BA.png"
+      "/assets/products/5162C008BA.jpg"
     ],
     "description": "CanonLaser i-SENSYSLBP233DWSFPMonoWifinetwork,33ppm"
   },
@@ -3530,7 +3530,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/5952C013AA.jpg"
     ],
     "description": "CanonLaseri-SENSYSLBP243dwSFPMono,duplex,Wifinetwork,36ppm"
   },
@@ -3555,7 +3555,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/5952C006AA.jpg"
     ],
     "description": "CanonLaseri-SENSYSLBP246dwSFPmono,duplex,Wifi,network,40ppm5-LineLCD"
   },
@@ -3580,7 +3580,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/5621C001AA.jpg"
     ],
     "description": "Canon Laser i-SENSYSMF275dwMFP Mono4en129ppm,duplex Wifi NetworkA4"
   },
@@ -3605,7 +3605,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/5951C020AA.png"
+      "/assets/products/5951C020AA.jpg"
     ],
     "description": "Canon Laser i-SENSYS MF461dw MFP Mono 3 en 1  36ppm duplex,Wifi,Network"
   },
@@ -3630,7 +3630,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/5951C008AA.jpg"
     ],
     "description": "Canon Laser i-SENSYS MF463dw MFP Mono 3 en 1  40ppm duplex,Wifi,Network"
   },
@@ -3655,7 +3655,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/5951C007AA.png"
+      "/assets/products/5951C007AA.jpg"
     ],
     "description": "Canon Laser i-SENSYS MF465dw MFP Mono 4 en 1  40ppm duplex,Wifi,Network"
   },
@@ -3680,7 +3680,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/5158C009AA.png"
+      "/assets/products/5158C009AA.jpg"
     ],
     "description": "Canon Laser i-SENSYS MF651Cw Laser color 3 en 1  18ppm,Wifi,Network A4"
   },
@@ -3705,7 +3705,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/5158C004AA.png"
+      "/assets/products/5158C004AA.jpg"
     ],
     "description": "Canon Laser i-SENSYS MF655Cdw Laser MFP color 3 en 1  21ppm,Wifi,Network A4"
   },
@@ -3730,7 +3730,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/5158C001AA.png"
+      "/assets/products/5158C001AA.jpg"
     ],
     "description": "Canon Laser i-SENSYS MF657Cdw Laser MFP color 4 en 1  21ppm,Wifi,Network  A4"
   },
@@ -3755,7 +3755,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/5455C012AA.png"
+      "/assets/products/5455C012AA.jpg"
     ],
     "description": "Canon Laser i-SENSYS MF752CDW Laser MFP Color 3 en 1  33ppm,Wifi, Network  A4"
   },
@@ -3780,7 +3780,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL___WIFI___BLUETOOTH.jpg"
     ],
     "description": "Dell Vostro Desktop 3888 10th Gen Intel(R)Core(TM) i5-10400 processor(6-Core, 12M Cache, 2.9GHz to 4.3GHz) 4GB, 4Gx1, DDR4, 2666MHz 1TB 7200RPM 3.5\" SATA HDD Tray load DVD Drive (Reads and Writes to DVD/CD)  Ubuntu Linux 18.04 802.11ac 1x1 WiFi and Bluetooth 1Y ProSupport and Next Business Day Onsite Service + E2220H-3Y Dell 22 Monitor-E2220H-54.6cm (21.5\") Black - 3Yr - VGA & DisplayPort"
   },
@@ -3805,7 +3805,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "DELL Pro Tower QCT1250 Intel i5-14500 vPro (14 Cores/24MB/20T/2.5GHz to 5,0GHz/65W) 8GB (1x8GB) DDR5 512GB PCIe NVMe Dell Optical Mouse-MS116 Dell Multimedia Keyboard-KB216; Ubuntu;  3Y ProSupport and Next Business Day Onsite Service"
   },
@@ -3830,7 +3830,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "DELL Pro Tower QCT1250 Intel i5-14500 vPro (14 Cores/24MB/20T/2.5GHz to 5,0GHz/65W) 8GB (1x8GB) DDR5 512GB PCIe NVMe Dell Optical Mouse-MS116 Dell Multimedia Keyboard-KB216; Windows 11 pro;  3Y ProSupport and Next Business Day Onsite Service"
   },
@@ -3855,7 +3855,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "DELL Pro Tower QCT1250 Intel  i7 14700 vPro (20 Cores/33MB/28T/5,3GHz to 5.1GHz/65W) 8GB (1X8GB) DDR5 M.2 2230 512GB SSD Dell Optical Mouse-MS116 - Black Dell Multimedia Keyboard-KB216 - French (AZERTY) - Black  ; Windows 11 pro ;  3Y ProSupport and Next Business Day Onsite Service"
   },
@@ -3880,7 +3880,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "DELL Pro Slim QCS1250 Intel Ultra 5 235 (13 TOPS NPU, 14 cores, up to 5.0GHz); 8GB (1x8GB) DDR5 512GB PCIe NVMe Dell Optical Mouse-MS116 Dell Multimedia Keyboard-KB216;  Ubuntu 24.04 LTS  ;  3Y ProSupport and Next Business Day Onsite Service"
   },
@@ -3905,7 +3905,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1562976540-1502c2145186?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "DELL Pro Slim QCS1250 Intel Ultra 5 235 (13 TOPS NPU, 14 cores, up to 5.0GHz); 8GB (1x8GB) DDR5 512GB PCIe NVMe Dell Optical Mouse-MS116 Dell Multimedia Keyboard-KB216;  Win 11 pro ;  3Y ProSupport and Next Business Day Onsite Service"
   },
@@ -3930,7 +3930,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1555617778-02518510b9fa?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "DELL Pro Micro QCM1250  IntelUltra 5 235T (13 TOPS NPU, 14 cores, up to 5.0GHz) 8GB (1x8GB) DDR5 512GB PCIe NVMe Dell Optical Mouse-MS116 Dell Multimedia Keyboard-KB216; Ubuntu;  3Y ProSupport and Next Business Day Onsite Service"
   },
@@ -3955,7 +3955,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Dell Pro Tower Plus QBT1250; Intel(R) Core(TM) Ultra 5 235 (13 TOPS NPU, 14 cores, up to 5.0GHz); 8GB: 1 x 8GB, DDR5, up to 5600 MT/s, non-ECC; 512GB SSD TLC; 8x DVD+/-RW/RAM 9.5mm Slimline;  Ubuntu 24.04 LTS; 3Y ProSupport and Next Business Day Onsite Service"
   },
@@ -3980,7 +3980,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1562976540-1502c2145186?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "DELL Pro Slim QCS1250 Intel Ultra 5 235T (13 TOPS NPU, 14 cores, up to 5.0GHz); 8GB (1x8GB) DDR5 512GB PCIe NVMe Dell Optical Mouse-MS116 Dell Multimedia Keyboard-KB216;  Windows 11 Pro ;  3Y ProSupport and Next Business Day Onsite Service"
   },
@@ -4005,7 +4005,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1555617778-02518510b9fa?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Dell Pro 24 All-in-One QC24251;  Intel(R) Core(TM) Core Ultra 5 235T (13 TOPS, up to 5.0 GHz); 16GB (1x16 GB) 5600MT/s DDR5,  512GB SSD; ntel(R) Wi-Fi 6E AX211, 2x2, 802.11ax, Bluetooth(R) wireless card ; 24\" All-in-One QC24251, 35W N-1 CPU, Non-touch, FHD HDR Camera, WW; Dell Wired Keyboard - KB216 - French (AZERTY) - Black;  Dell Optical Mouse-MS116 - Black; Ubuntu 24.04 LTS; 3Y ProSupport and Next Business Day Onsite Service"
   },
@@ -4030,7 +4030,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Dell Pro 24 All-in-One QC24251;  Intel(R) Core(TM) Core Ultra 5 235T (13 TOPS, up to 5.0 GHz); 16GB (1x16 GB) 5600MT/s DDR5;  512GB SSD; ntel(R) Wi-Fi 6E AX211, 2x2, 802.11ax, Bluetooth(R) wireless card ; 24\" All-in-One QC24251, 35W N-1 CPU, Non-touch, FHD HDR Camera, WW; Dell Wired Keyboard - KB216 - French (AZERTY) - Black;  Dell Optical Mouse-MS116 - Black; Windows 11 Pro ; 3Y ProSupport and Next Business Day Onsite Service"
   },
@@ -4055,7 +4055,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P_R_E_C_I_S_I_O_N_3680__New_Dell_Pro_Max_Tower_T2.jpg"
     ],
     "description": "P R E C I S I O N 3680/ New Dell Pro Max Tower T2"
   },
@@ -4080,7 +4080,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1555617778-02518510b9fa?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Dell Pro Max T2; Intel Core Ultra 7 265 (30 MB cache, 20 cores, 20 threads, 1.8 GHz to 5.3 GHz, 65W); 32GB: 2 x 16 GB, DDR5, 5600 MT/s, non-ECC; 1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready; NVIDIA(R) RTX(TM) A1000, 8 GB GDDR6, 4 mDP to DP adapters; Windows 11 Pro; 3 ans ProSupport and Next Business Day Onsite Service"
   },
@@ -4105,7 +4105,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Dell Pro Max T2; Intel Core Ultra 7 265 (30 MB cache, 20 cores, 20 threads, 1.8 GHz to 5.3 GHz, 65W); 32GB: 2 x 16 GB, DDR5, 5600 MT/s, non-ECC; 1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready; NVIDIA RTX 2000 ADA, 16 GB GDDR6, 4 mDP to DP adapters; Windows 11 Pro; 3 ans ProSupport and Next Business Day Onsite Service"
   },
@@ -4130,7 +4130,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Dell Canvas 27 KV2718D includes pen, pen holder with replacement nibs, and ring totem, Fences Software for use with Dell Canvas 27, 1Y Basic Onsite Service"
   },
@@ -4155,7 +4155,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "DELL Moniteur SE2225HM 22'' 36 Mois"
   },
@@ -4180,7 +4180,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "DELL Moniteur SE2425HM 24'' 36 Mois"
   },
@@ -4205,7 +4205,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "DELL Moniteur SE2426H  24'' 36 Mois"
   },
@@ -4230,7 +4230,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "DELL 22 Monitor E2225HM 54.48cm 36M"
   },
@@ -4255,7 +4255,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "DELL Moniteur E2425HM 23.8'' 36 Mois"
   },
@@ -4280,7 +4280,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "DELL Moniteur Dell Pro 27 Monitor E2725HM 27'' 36 Mois"
   },
@@ -4305,7 +4305,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Dell 24 Monitor - P2426H, 60.4cm (24.0\") 36M"
   },
@@ -4330,7 +4330,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Dell 27 Monitor - P2726H, 68.6cm (27.0\") 36M"
   },
@@ -4355,7 +4355,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Dell 22 Monitor - P2225H, 54.6cm (21.5\") 36M"
   },
@@ -4380,7 +4380,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "DELL Moniteur SE2726H 27'' 36 Mois"
   },
@@ -4405,7 +4405,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Dell 27 Monitor - P2725H, 68.6cm (27.0\") 36M"
   },
@@ -4430,7 +4430,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Dell 22 Monitor - P2226H, 54.6cm (21.5\") 36M"
   },
@@ -4455,7 +4455,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Dell Souris optique Dell MS116"
   },
@@ -4480,7 +4480,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Dell Wireless Mouse-WM126"
   },
@@ -4505,7 +4505,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Dell Multimedia Keyboard-KB216 - AZERTY- Black"
   },
@@ -4530,7 +4530,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "DELL Wireless Keyboard and Mouse - KM3322W - French (AZERTY)"
   },
@@ -4555,7 +4555,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Dell Pro Wireless Keyboard and Mouse - KM5221W -French (AZERTY)"
   },
@@ -4580,7 +4580,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Dell Pro Wireless Keyboard and Mouse - KM7120W-French (AZERTY)"
   },
@@ -4605,7 +4605,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/Dell_Pro_PC14250___PC16250.jpg"
     ],
     "description": "Dell Pro PC14250 / PC16250"
   },
@@ -4630,7 +4630,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Dell Pro 14 (PC14250);  Intel(R) Core(TM) 5 120U (10 cores, up to 5.0 GHz) ; 8 GB: 1 x 8 GB, DDR5, 5600 MT/s; 512 GB SSD; 14, Non-Touch, FHD+, 300 nit, 45% NTSC, Anti-Glare, FHD+IR Cam ; Intel® Wi-Fi 6E (6 where 6E unavailable) AX211, 2x2, 802.11ax, Bluetooth® 5.3 wireless card; 3-cell, 45 Wh; Ubuntu; 3YProSupport and Next Business Day Onsite Service"
   },
@@ -4655,7 +4655,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/EP2-06843.jpg"
     ],
     "description": "Microsoft Office Home and Student 2024 French  Africa Only Medialess (Compatible Win10, Win11 et Mac)"
   },
@@ -4680,7 +4680,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/EP2-06659.png"
+      "/assets/products/EP2-06659.jpg"
     ],
     "description": "Microsoft Office Home and Business 2024 French Africa Only"
   },
@@ -4705,7 +4705,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/QQ2-01735.png"
+      "/assets/products/QQ2-01735.jpg"
     ],
     "description": "Microsoft M365 Personal French Subscr 1YR Africa Only Media less P10"
   },
@@ -4730,7 +4730,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/6GQ-01921.png"
+      "/assets/products/6GQ-01921.jpg"
     ],
     "description": "Microsoft 365 Family French Subscr 1YR AfricaOnly Medialess P8 (Abonnement 1 an pour les particuliers)"
   },
@@ -4755,7 +4755,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/KLQ-00667.jpg"
     ],
     "description": "Microsoft 365 Bus Std Retail French Subscr 1YRAfrica Only Mdls P8"
   },
@@ -4780,7 +4780,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "/assets/products/P73-08329.png"
+      "/assets/products/P73-08329.jpg"
     ],
     "description": "Windows Svr Std 2022 64Bit French 1pk DSP OEI DVD 16 Core"
   },
@@ -4805,7 +4805,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P73-08347.jpg"
     ],
     "description": "MICROSOFT Windows Svr Std 2022 64Bit French 1pk DSP OEI DVD 24 Core"
   },
@@ -4830,7 +4830,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LH16-0001.jpg"
     ],
     "description": "CFQ7TTC0LH16-0001"
   },
@@ -4855,7 +4855,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LH1P-0001.jpg"
     ],
     "description": "CFQ7TTC0LH1P-0001"
   },
@@ -4880,7 +4880,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LH0L-0001.jpg"
     ],
     "description": "CFQ7TTC0LH0L-0001"
   },
@@ -4905,7 +4905,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LH18-0001.jpg"
     ],
     "description": "CFQ7TTC0LH18-0001"
   },
@@ -4930,7 +4930,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LH18-000P.jpg"
     ],
     "description": "CFQ7TTC0LH18-000P"
   },
@@ -4955,7 +4955,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LH1G-0001.jpg"
     ],
     "description": "CFQ7TTC0LH1G-0001"
   },
@@ -4980,7 +4980,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LDPB-0001.jpg"
     ],
     "description": "CFQ7TTC0LDPB-0001"
   },
@@ -5005,7 +5005,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LDPB-0011.jpg"
     ],
     "description": "CFQ7TTC0LDPB-0011"
   },
@@ -5030,7 +5030,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LCHC-0002.jpg"
     ],
     "description": "CFQ7TTC0LCHC-0002"
   },
@@ -5055,7 +5055,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LCHCC-000N.jpg"
     ],
     "description": "CFQ7TTC0LCHCC-000N"
   },
@@ -5080,7 +5080,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LF8Q-0001.jpg"
     ],
     "description": "CFQ7TTC0LF8Q-0001"
   },
@@ -5105,7 +5105,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LF8Q-001S.jpg"
     ],
     "description": "CFQ7TTC0LF8Q-001S"
   },
@@ -5130,7 +5130,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LGZT-0001.jpg"
     ],
     "description": "CFQ7TTC0LGZT-0001"
   },
@@ -5155,7 +5155,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LF8R-0001.jpg"
     ],
     "description": "CFQ7TTC0LF8R-0001"
   },
@@ -5180,7 +5180,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LF8R-0020.jpg"
     ],
     "description": "CFQ7TTC0LF8R-0020"
   },
@@ -5205,7 +5205,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LF8S-0001.jpg"
     ],
     "description": "CFQ7TTC0LF8S-0001"
   },
@@ -5230,7 +5230,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LF8S-001G.jpg"
     ],
     "description": "CFQ7TTC0LF8S-001G"
   },
@@ -5255,7 +5255,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LFLX-0001.jpg"
     ],
     "description": "CFQ7TTC0LFLX-0001"
   },
@@ -5280,7 +5280,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LFLX-0021.jpg"
     ],
     "description": "CFQ7TTC0LFLX-0021"
   },
@@ -5305,7 +5305,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LFLZ-0003.jpg"
     ],
     "description": "CFQ7TTC0LFLZ-0003"
   },
@@ -5330,7 +5330,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7RRC0LFLZ-001P.jpg"
     ],
     "description": "CFQ7RRC0LFLZ-001P"
   },
@@ -5355,7 +5355,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0MM8R-0002.jpg"
     ],
     "description": "CFQ7TTC0MM8R-0002"
   },
@@ -5380,7 +5380,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LH04-0001.jpg"
     ],
     "description": "CFQ7TTC0LH04-0001"
   },
@@ -5405,7 +5405,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LHXH-0001.jpg"
     ],
     "description": "CFQ7TTC0LHXH-0001"
   },
@@ -5430,7 +5430,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0JN4R-0002.jpg"
     ],
     "description": "CFQ7TTC0JN4R-0002"
   },
@@ -5455,7 +5455,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LH0T-0001.jpg"
     ],
     "description": "CFQ7TTC0LH0T-0001"
   },
@@ -5480,7 +5480,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0QW7C-0006.jpg"
     ],
     "description": "CFQ7TTC0QW7C-0006"
   },
@@ -5505,7 +5505,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/CFQ7TTC0LH0V-0001.jpg"
     ],
     "description": "CFQ7TTC0LH0V-0001"
   },
@@ -5530,7 +5530,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/Toner_Magn_tique_pour_CMC7_et_E13B.jpg"
     ],
     "description": "Toner Magnétique pour CMC7 et E13B"
   },
@@ -5555,7 +5555,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé série 1320/1160 (2500 p à 5% encrage)"
   },
@@ -5580,7 +5580,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé série 2035/2055 (6500 p à 5% encrage)"
   },
@@ -5605,7 +5605,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé grande capacité série 2300"
   },
@@ -5630,7 +5630,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé série 2420/2430 (6000 p à 5% encrage)"
   },
@@ -5655,7 +5655,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé série 3005 (6500 p à 5% encrage)"
   },
@@ -5680,7 +5680,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé série 3015 (6500 p à 5% encrage)"
   },
@@ -5705,7 +5705,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé série 4014"
   },
@@ -5730,7 +5730,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé série 4015"
   },
@@ -5755,7 +5755,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé grande capacité série 4100"
   },
@@ -5780,7 +5780,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé série 2420(6000 p à 5% encrage)"
   },
@@ -5805,7 +5805,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique hp2300 (6300 p à 5% encrage)"
   },
@@ -5830,7 +5830,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique hp1320"
   },
@@ -5855,7 +5855,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique hp24xx"
   },
@@ -5880,7 +5880,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique hp P3005"
   },
@@ -5905,7 +5905,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique hp P3015"
   },
@@ -5930,7 +5930,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique hpP4014"
   },
@@ -5955,7 +5955,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique hpP4015"
   },
@@ -5980,7 +5980,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique série 9000/9050"
   },
@@ -6005,7 +6005,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Imprimante TROY MICR 2055dn Secure 1 bac 250 f sans clé"
   },
@@ -6030,7 +6030,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Imprimante TROY MICR 2055dn Secure 1 bac 250 f sécurisé par clé"
   },
@@ -6055,7 +6055,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Imprimante TROY MICR 3015dn 1 bac de 500 f sans clé"
   },
@@ -6080,7 +6080,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Imprimante TROY MICR 3015dn 1 bac de 500 f sécurisé par clé"
   },
@@ -6105,7 +6105,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/Toner_Magn_tique_pour_CMC7_et_E13B.jpg"
     ],
     "description": "Toner Magnétique pour CMC7 et E13B"
   },
@@ -6130,7 +6130,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé série 1320/1160 (2500 p à 5% encrage)"
   },
@@ -6155,7 +6155,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé série 2035/2055 (6500 p à 5% encrage)"
   },
@@ -6180,7 +6180,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé grande capacité série 2300"
   },
@@ -6205,7 +6205,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé série 2420/2430 (6000 p à 5% encrage)"
   },
@@ -6230,7 +6230,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé série 3005 (6500 p à 5% encrage)"
   },
@@ -6255,7 +6255,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé série 3015 (6500 p à 5% encrage)"
   },
@@ -6280,7 +6280,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé série 4014"
   },
@@ -6305,7 +6305,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé série 4015"
   },
@@ -6330,7 +6330,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé grande capacité série 4100"
   },
@@ -6355,7 +6355,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique sécurisé série 2420(6000 p à 5% encrage)"
   },
@@ -6380,7 +6380,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/ENTREPRISE.jpg"
     ],
     "description": "Toner magnétique hp2300 (6300 p à 5% encrage)"
   },
@@ -6405,7 +6405,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/842D2AA_ABB.jpg"
     ],
     "description": "Poly Studio R30 USB Video Bar EMEA-INTL English Loc-Euro plug"
   },
@@ -6430,7 +6430,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/9W1A6AA_AC3.jpg"
     ],
     "description": "Poly Studio E60 Smart Camera 4K MPTZ with 12x Optical Zoom"
   },
@@ -6455,7 +6455,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Oray Support plafond universel pour vidéo-projecteur Charge maxi 15Kgs Attache réglable de 07 à 90cm"
   },
@@ -6480,7 +6480,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/842D2AA_ABB.jpg"
     ],
     "description": "Poly Studio R30 USB Video Bar EMEA-INTL English Loc-Euro plug"
   },
@@ -6505,7 +6505,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/9W1A6AA_AC3.jpg"
     ],
     "description": "Poly Studio E60 Smart Camera 4K MPTZ with 12x Optical Zoom"
   },
@@ -6530,7 +6530,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Oray Support plafond universel pour vidéo-projecteur Charge maxi 15Kgs Attache réglable de 07 à 90cm"
   },
@@ -6555,7 +6555,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/842D2AA_ABB.jpg"
     ],
     "description": "Poly Studio R30 USB Video Bar EMEA-INTL English Loc-Euro plug"
   },
@@ -6580,7 +6580,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/9W1A6AA_AC3.jpg"
     ],
     "description": "Poly Studio E60 Smart Camera 4K MPTZ with 12x Optical Zoom"
   },
@@ -6605,7 +6605,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Produit Neuf & Certifié Maroc"
     },
     "images": [
-      "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/COMMERCIAL.jpg"
     ],
     "description": "Oray Support plafond universel pour vidéo-projecteur Charge maxi 15Kgs Attache réglable de 07 à 90cm"
   }
