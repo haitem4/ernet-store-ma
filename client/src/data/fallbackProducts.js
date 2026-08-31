@@ -1,6 +1,5 @@
 // ============================================================
-// ERNET STORE — Catalogue Réel Disway avec Images Matérielles Distinctes
-// Chaque matériel possède un visuel photo réel correspondant à son type/marque
+// ERNET STORE — Catalogue Réel Disway avec Images Officielles Importées
 // ============================================================
 
 export const FALLBACK_CATEGORIES = [
@@ -306,7 +305,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/PER760XS4A.png"
     ],
     "description": "DELL PowerEdge R760XS       \nDOUBLE Processeur Intel Xeon Silver 2x4510 2.4G, 12C/24T, 16GT/s, 30M Cache, Turbo, HT (150W) DDR5-4400) DDR5-4000\nMemoire 4x32GB RDIMM, 5600MT/s, Dual Rank 128GB\n2,5\"x16 Hot plug Disque dur de 2x480GoSSD \nPERC H755 Unconfigured RAID \nConnexion 5720  6 PORTS RJ45 1GbE BASE-T \nAdministration à distance  iDRAC9, Enterprise 16G\nDual Redundant(1+1) Power Supply\n3 Ans de Garantie Pro support | DELL PowerEdge R760XS       \nProcesseur Intel Xeon Silver 4410Y 2.4G, 12C/24T, 16GT/s, 30M Cache, Turbo, HT (150W) DDR5-4400) DDR5-4000\nMemoire 1x32GB RDIMM, 5600MT/s, Dual Rank  \n2,5\"x16 Hot plug Disque dur de 1x480GoSSD \nPERC H755 Unconfigured RAID \nConnexion 5720  6 PORTS RJ45 1GbE BASE-T \nAdministration à distance  iDRAC9, Enterprise 16G\nDual Redundant(1+1) Power Supply\n3 Ans de Garantie Pro support"
   },
@@ -331,7 +330,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/412-BBHD.png"
     ],
     "description": "DELL Standard Heatsink PowerEdge R760xs Cus Kit R760XS"
   },
@@ -381,7 +380,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/330-BCVV.png"
     ],
     "description": "Riser Config 2 Butterfly Gen4 Riser (x8/x8) PowerEdge R360 CK"
   },
@@ -406,7 +405,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P87461-425.png"
     ],
     "description": "HPE ML30G11 4LFF-NHP 6315P(4c/2.8GHz/55w) 1x32G SATA-VROC 4p-1GbE-BCM5719 + 2x1TB SATA HDD 1x350W"
   },
@@ -431,7 +430,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P87461-425.png"
     ],
     "description": "1x Intel Xeon  6315P 4c/2.8GHz/55w"
   },
@@ -456,7 +455,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P87461-425.png"
     ],
     "description": "1x 32GB UDIMM DDR4 4800 MT/s [P64336-B21] / extensible à 128GB sur 4 Slots"
   },
@@ -481,7 +480,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P87461-425.png"
     ],
     "description": "Intel VROC SATA RAID Software intégré (Les disques SAS ne sont pas supportés)"
   },
@@ -506,7 +505,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P87461-425.png"
     ],
     "description": "Cage 4LFF 3,5\" HDD Non Hotplug  + 2x1TB SATA"
   },
@@ -531,7 +530,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P87461-425.png"
     ],
     "description": "Contrôleur réseau intégré  BCM5719 avec 4 ports 1GbE RJ45"
   },
@@ -556,7 +555,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P87461-425.png"
     ],
     "description": "1x PCIe 5.0 slots, 3x PCIe 4.0 slots"
   },
@@ -581,7 +580,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P87461-425.png"
     ],
     "description": "Trusted Platform Module (TPM 2.0 intégré )"
   },
@@ -606,7 +605,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P87461-425.png"
     ],
     "description": "1x HPE 800W Flex Slot Titanium Hot PlugLow Halogen Power Supply Kit (Pas de redondance)"
   },
@@ -631,7 +630,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P87461-425.png"
     ],
     "description": "1x VGA / 1x Display Port / 8x USB (4 arrière, 2 avant, 2 interne)\n4x RJ45 + un partagé pour iLO (port iLO dédié optionnel)"
   },
@@ -656,7 +655,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P87461-425.png"
     ],
     "description": "iLO Standard avec Intelligent Provisioning, OneView Standard à télécharger\nLes licences Advanced sont optionnelles, payantes"
   },
@@ -681,7 +680,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P87461-425.png"
     ],
     "description": "3ans de garantie HPE Basic dont 1an sur site NBD (jour ouvré suivant)"
   },
@@ -706,7 +705,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P65397-421.png"
     ],
     "description": "HPE ML30G11 8SFF E-2434 3.4GHz-4c 16GB RAID-SATA-VROC 4p-1GbE-BCM5719 800wT (3-1-1)"
   },
@@ -731,7 +730,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P65397-421.png"
     ],
     "description": "1x Intel Xeon E-2434 3.4GHz 4-core 12 MB 55w"
   },
@@ -756,7 +755,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P65397-421.png"
     ],
     "description": "1x 16GB UDIMM DDR4 4800 MT/s [P64336-B21] / extensible à 128GB sur 4 Slots"
   },
@@ -781,7 +780,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P65397-421.png"
     ],
     "description": "Intel VROC SATA RAID Software intégré (Les disques SAS ne sont pas supportés)"
   },
@@ -806,7 +805,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P65397-421.png"
     ],
     "description": "Cage 8SFF 2,5\" HDD  Hot-Plug (sans disques) + 1 Slot M.2"
   },
@@ -831,7 +830,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P65397-421.png"
     ],
     "description": "Contrôleur réseau intégré  BCM5719 avec 4 ports 1GbE RJ45"
   },
@@ -856,7 +855,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P65397-421.png"
     ],
     "description": "1x PCIe 5.0 slots, 3x PCIe 4.0 slots"
   },
@@ -881,7 +880,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P65397-421.png"
     ],
     "description": "Trusted Platform Module (TPM 2.0 intégré )"
   },
@@ -906,7 +905,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P65397-421.png"
     ],
     "description": "1x HPE 800W Flex Slot Titanium Hot PlugLow Halogen Power Supply Kit ( Possibilité de redondance, 865438-B21)"
   },
@@ -931,7 +930,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P65397-421.png"
     ],
     "description": "1x VGA / 1x Display Port / 8x USB (4 arrière, 2 avant, 2 interne)\n4x RJ45 + un partagé pour iLO (port iLO dédié optionnel)"
   },
@@ -956,7 +955,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P65397-421.png"
     ],
     "description": "iLO Standard avec Intelligent Provisioning, OneView Standard à télécharger\nLes licences Advanced sont optionnelles, payantes"
   },
@@ -981,7 +980,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P65397-421.png"
     ],
     "description": "3ans de garantie HPE Basic dont 1an sur site NBD (jour ouvré suivant)"
   },
@@ -1006,7 +1005,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P65096-421.png"
     ],
     "description": "HPE ML30G11 8SFF E-2436 2.9GHz-6c 16GB RAID-SATA-VROC 4p-1GbE-BCM5719 800wT (3-1-1)"
   },
@@ -1031,7 +1030,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P65096-421.png"
     ],
     "description": "1x Intel Xeon E-2436 (6 core, 2.9 GHz, 65W)"
   },
@@ -1056,7 +1055,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P65096-421.png"
     ],
     "description": "1x 16GB UDIMM DDR4 4800 MT/s [P64336-B21] / extensible à 128GB sur 4 Slots"
   },
@@ -1081,7 +1080,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P65096-421.png"
     ],
     "description": "Intel VROC SATA RAID Software intégré (Les disques SAS ne sont pas supportés)"
   },
@@ -1106,7 +1105,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P65096-421.png"
     ],
     "description": "Cage 8SFF 2,5\" HDD Hotplug (sans disques) + 1 Slot M.2"
   },
@@ -1131,7 +1130,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P65096-421.png"
     ],
     "description": "Contrôleur réseau intégré  BCM5719 avec 4 ports 1GbE RJ45"
   },
@@ -1181,7 +1180,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/400-BEGI.png"
     ],
     "description": "Dell 2.4TB 10K RPM SAS 12Gbps 512e 2.5in Hot-plug drive 12M R360,, R750xs,R760XS"
   },
@@ -1206,7 +1205,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/161-BBRC.png"
     ],
     "description": "2TB Hard Drive SATA 6Gbps 7.2K 512n 3.5in Hot-Plug, CUS Kit, T350, T360"
   },
@@ -1256,7 +1255,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/540-BBVM.png"
     ],
     "description": "Broadcom 57416 Dual Port 10Gb Base-T PCIe Adapter Low Profile  R360,R750XS,R760XS"
   },
@@ -1281,7 +1280,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/540-BDID.png"
     ],
     "description": "Broadcom 57414 Dual Port 10/25GbE SFP28 Adapter, PCIe Low Profile, V2 R360, R760XS"
   },
@@ -1306,7 +1305,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/405-AAZY.png"
     ],
     "description": "Dell HBA355e Adapter Low Profile/Full height,Customer install 36M"
   },
@@ -1331,7 +1330,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/450-AMJC.png"
     ],
     "description": "Single, Hot-Plug, Power Supply, 700W MM HLAC (200-240Vac) Titanium   R360  T360 new generation"
   },
@@ -1356,7 +1355,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/OVB_10G_SR.png"
     ],
     "description": "40  Dell Networking, Transceiver, SFP+, 10GbE, SR, 850nm Wavelength, 300m Reach"
   },
@@ -1406,7 +1405,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1563770660941-20978e870e26?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/400-BEGI.png"
     ],
     "description": "Dell 2.4TB 10K RPM SAS 12Gbps 512e 2.5in Hot-plug drive 12M R360,, R750xs,R760XS"
   },
@@ -1431,7 +1430,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/161-BBRC.png"
     ],
     "description": "2TB Hard Drive SATA 6Gbps 7.2K 512n 3.5in Hot-Plug, CUS Kit, T350, T360"
   },
@@ -1481,7 +1480,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/540-BBVM.png"
     ],
     "description": "Broadcom 57416 Dual Port 10Gb Base-T PCIe Adapter Low Profile  R360,R750XS,R760XS"
   },
@@ -1506,7 +1505,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/540-BDID.png"
     ],
     "description": "Broadcom 57414 Dual Port 10/25GbE SFP28 Adapter, PCIe Low Profile, V2 R360, R760XS"
   },
@@ -1531,7 +1530,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/405-AAZY.png"
     ],
     "description": "Dell HBA355e Adapter Low Profile/Full height,Customer install 36M"
   },
@@ -1556,7 +1555,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/450-AMJC.png"
     ],
     "description": "Single, Hot-Plug, Power Supply, 700W MM HLAC (200-240Vac) Titanium   R360  T360 new generation"
   },
@@ -1581,7 +1580,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/OVB_10G_SR.png"
     ],
     "description": "40  Dell Networking, Transceiver, SFP+, 10GbE, SR, 850nm Wavelength, 300m Reach"
   },
@@ -1631,7 +1630,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/400-BEGI.png"
     ],
     "description": "Dell 2.4TB 10K RPM SAS 12Gbps 512e 2.5in Hot-plug drive 12M R360,, R750xs,R760XS"
   },
@@ -1656,7 +1655,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/161-BBRC.png"
     ],
     "description": "2TB Hard Drive SATA 6Gbps 7.2K 512n 3.5in Hot-Plug, CUS Kit, T350, T360"
   },
@@ -1706,7 +1705,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/540-BBVM.png"
     ],
     "description": "Broadcom 57416 Dual Port 10Gb Base-T PCIe Adapter Low Profile  R360,R750XS,R760XS"
   },
@@ -1731,7 +1730,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/540-BDID.png"
     ],
     "description": "Broadcom 57414 Dual Port 10/25GbE SFP28 Adapter, PCIe Low Profile, V2 R360, R760XS"
   },
@@ -1756,7 +1755,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/405-AAZY.png"
     ],
     "description": "Dell HBA355e Adapter Low Profile/Full height,Customer install 36M"
   },
@@ -1781,7 +1780,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/450-AMJC.png"
     ],
     "description": "Single, Hot-Plug, Power Supply, 700W MM HLAC (200-240Vac) Titanium   R360  T360 new generation"
   },
@@ -1806,7 +1805,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/OVB_10G_SR.png"
     ],
     "description": "40  Dell Networking, Transceiver, SFP+, 10GbE, SR, 850nm Wavelength, 300m Reach"
   },
@@ -1856,7 +1855,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/EGE-450W-120M.png"
     ],
     "description": "ECOGREEN 120 cells 450 Wc Mono PERC HC 20.79% 144M"
   },
@@ -2006,7 +2005,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/JKM550M-72HL4-V.png"
     ],
     "description": "JINKO Tiger Pro 72HC, 550Wc Mono PERC 21.33% 1500V 144M"
   },
@@ -2031,7 +2030,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/345-BDRK.png"
     ],
     "description": "960GB SSD SATA Read Intensive 6Gbps 512e  2.5in Hot-Plug, CUS Kit  R360,, R750xs,R760XS"
   },
@@ -2056,7 +2055,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS124.png"
     ],
     "description": "DS124"
   },
@@ -2081,7 +2080,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS124.png"
     ],
     "description": "DS124"
   },
@@ -2106,7 +2105,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS124.png"
     ],
     "description": "DS124"
   },
@@ -2131,7 +2130,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS124.png"
     ],
     "description": "DS124"
   },
@@ -2156,7 +2155,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS124.png"
     ],
     "description": "DS124"
   },
@@ -2181,7 +2180,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS124.png"
     ],
     "description": "DS124"
   },
@@ -2206,7 +2205,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS124.png"
     ],
     "description": "DS124"
   },
@@ -2231,7 +2230,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS124.png"
     ],
     "description": "DS124"
   },
@@ -2256,7 +2255,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS124.png"
     ],
     "description": "DS124"
   },
@@ -2281,7 +2280,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS124.png"
     ],
     "description": "DS124"
   },
@@ -2306,7 +2305,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS124.png"
     ],
     "description": "DS124"
   },
@@ -2331,7 +2330,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS124.png"
     ],
     "description": "DS124"
   },
@@ -2356,7 +2355,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS124.png"
     ],
     "description": "DS124"
   },
@@ -2381,7 +2380,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS124.png"
     ],
     "description": "DS124"
   },
@@ -2406,7 +2405,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS124.png"
     ],
     "description": "DS124"
   },
@@ -2431,7 +2430,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS124.png"
     ],
     "description": "DS124"
   },
@@ -2456,7 +2455,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS124.png"
     ],
     "description": "DS124"
   },
@@ -2481,7 +2480,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS124.png"
     ],
     "description": "DS124"
   },
@@ -2506,7 +2505,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS223J.png"
     ],
     "description": "DS223J"
   },
@@ -2531,7 +2530,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS223J.png"
     ],
     "description": "DS223J"
   },
@@ -2556,7 +2555,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS223J.png"
     ],
     "description": "DS223J"
   },
@@ -2581,7 +2580,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS223J.png"
     ],
     "description": "DS223J"
   },
@@ -2606,7 +2605,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS223J.png"
     ],
     "description": "DS223J"
   },
@@ -2631,7 +2630,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS223J.png"
     ],
     "description": "DS223J"
   },
@@ -2656,7 +2655,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS223J.png"
     ],
     "description": "DS223J"
   },
@@ -2681,7 +2680,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS223J.png"
     ],
     "description": "DS223J"
   },
@@ -2706,7 +2705,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS223J.png"
     ],
     "description": "DS223J"
   },
@@ -2731,7 +2730,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS223J.png"
     ],
     "description": "DS223J"
   },
@@ -2756,7 +2755,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS223J.png"
     ],
     "description": "DS223J"
   },
@@ -2781,7 +2780,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS223J.png"
     ],
     "description": "DS223J"
   },
@@ -2806,7 +2805,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS223J.png"
     ],
     "description": "DS223J"
   },
@@ -2831,7 +2830,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS223J.png"
     ],
     "description": "DS223J"
   },
@@ -2856,7 +2855,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS223J.png"
     ],
     "description": "DS223J"
   },
@@ -2881,7 +2880,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS223J.png"
     ],
     "description": "DS223J"
   },
@@ -2906,7 +2905,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS4128F-SFP.png"
     ],
     "description": "Dell EMC Switch S4128F-ON, 1U, PHYless,28 x 10GbE SFP+, 2 x QSFP28, Ioto PSU, 2 PSU 8\n\n2 C13 Power Cord 220V 1.8M EUR  \nDell Networking, Cable, QSFP+ to QSFP+, 40GbE Passive Copper Direct Attach Cable, 1 Meter \nConsolidation Fee ESG \nSoftware\n1 3 Years ProSupport OS10 Enterprise Software Support-Maintenance \n1 3Yr ProSupport and Next Business Day On-Site Service"
   },
@@ -2931,7 +2930,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS4128F-20SFP.png"
     ],
     "description": "Dell EMC Switch S4128F-ON, 1U, PHYless,28 x 10GbE SFP+, 2 x QSFP28, IO to PSU, 2 PSU 2\n\n\n2 C13 Power Cord 220V 1.8M EUR (ZR)\n1 Dell Networking, Cable, QSFP+ to QSFP+, 40GbE Passive Copper Direct Attach Cable, 1M \n20 Dell Networking, Cable, SFP+ to SFP+, 10GbE, Copper Twinax Direct Attach Cable, 3M \n1 Consolidation Fee ESG \nSoftware\n1 OS10 Enterprise S4128F-ON \nService\n1 3Yr ProSupport and Next Business Day On-Site Service (ZR)"
   },
@@ -2956,7 +2955,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS4128F-48SFP.png"
     ],
     "description": "Dell EMC Switch S4148F-ON, 1U, 48x10GbE SFP+, 4xQSFP28, 2xQSFP+, IO to PSU, 2 PSU, OS10  8\n2 C13 Power Cord 220V 1.8M EUR Dell Networking, Cable, QSFP+ to QSFP+, 40GbE Passive Copper Direct Attach Cable, 1 Mete\nConsolidation Fee ESG \nSoftware\nOS10 Enterprise S4148F-ON \nService\n3 Years ProSupport OS10 Enterprise Software Support-Maintenance \n3Yr ProSupport and Next Business Day On-Site Service"
   },
@@ -2981,7 +2980,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS4128F-SFP.png"
     ],
     "description": "Dell EMC Switch S4128F-ON, 1U, PHYless,28 x 10GbE SFP+, 2 x QSFP28, Ioto PSU, 2 PSU 8\n\n2 C13 Power Cord 220V 1.8M EUR  \nDell Networking, Cable, QSFP+ to QSFP+, 40GbE Passive Copper Direct Attach Cable, 1 Meter \nConsolidation Fee ESG \nSoftware\n1 3 Years ProSupport OS10 Enterprise Software Support-Maintenance \n1 3Yr ProSupport and Next Business Day On-Site Service"
   },
@@ -3006,7 +3005,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS4128F-20SFP.png"
     ],
     "description": "Dell EMC Switch S4128F-ON, 1U, PHYless,28 x 10GbE SFP+, 2 x QSFP28, IO to PSU, 2 PSU 2\n\n\n2 C13 Power Cord 220V 1.8M EUR (ZR)\n1 Dell Networking, Cable, QSFP+ to QSFP+, 40GbE Passive Copper Direct Attach Cable, 1M \n20 Dell Networking, Cable, SFP+ to SFP+, 10GbE, Copper Twinax Direct Attach Cable, 3M \n1 Consolidation Fee ESG \nSoftware\n1 OS10 Enterprise S4128F-ON \nService\n1 3Yr ProSupport and Next Business Day On-Site Service (ZR)"
   },
@@ -3031,7 +3030,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS4128F-48SFP.png"
     ],
     "description": "Dell EMC Switch S4148F-ON, 1U, 48x10GbE SFP+, 4xQSFP28, 2xQSFP+, IO to PSU, 2 PSU, OS10  8\n2 C13 Power Cord 220V 1.8M EUR Dell Networking, Cable, QSFP+ to QSFP+, 40GbE Passive Copper Direct Attach Cable, 1 Mete\nConsolidation Fee ESG \nSoftware\nOS10 Enterprise S4148F-ON \nService\n3 Years ProSupport OS10 Enterprise Software Support-Maintenance \n3Yr ProSupport and Next Business Day On-Site Service"
   },
@@ -3056,7 +3055,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS4128F-SFP.png"
     ],
     "description": "Dell EMC Switch S4128F-ON, 1U, PHYless,28 x 10GbE SFP+, 2 x QSFP28, Ioto PSU, 2 PSU 8\n\n2 C13 Power Cord 220V 1.8M EUR  \nDell Networking, Cable, QSFP+ to QSFP+, 40GbE Passive Copper Direct Attach Cable, 1 Meter \nConsolidation Fee ESG \nSoftware\n1 3 Years ProSupport OS10 Enterprise Software Support-Maintenance \n1 3Yr ProSupport and Next Business Day On-Site Service"
   },
@@ -3081,7 +3080,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS4128F-20SFP.png"
     ],
     "description": "Dell EMC Switch S4128F-ON, 1U, PHYless,28 x 10GbE SFP+, 2 x QSFP28, IO to PSU, 2 PSU 2\n\n\n2 C13 Power Cord 220V 1.8M EUR (ZR)\n1 Dell Networking, Cable, QSFP+ to QSFP+, 40GbE Passive Copper Direct Attach Cable, 1M \n20 Dell Networking, Cable, SFP+ to SFP+, 10GbE, Copper Twinax Direct Attach Cable, 3M \n1 Consolidation Fee ESG \nSoftware\n1 OS10 Enterprise S4128F-ON \nService\n1 3Yr ProSupport and Next Business Day On-Site Service (ZR)"
   },
@@ -3106,7 +3105,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/DS4128F-48SFP.png"
     ],
     "description": "Dell EMC Switch S4148F-ON, 1U, 48x10GbE SFP+, 4xQSFP28, 2xQSFP+, IO to PSU, 2 PSU, OS10  8\n2 C13 Power Cord 220V 1.8M EUR Dell Networking, Cable, QSFP+ to QSFP+, 40GbE Passive Copper Direct Attach Cable, 1 Mete\nConsolidation Fee ESG \nSoftware\nOS10 Enterprise S4148F-ON \nService\n3 Years ProSupport OS10 Enterprise Software Support-Maintenance \n3Yr ProSupport and Next Business Day On-Site Service"
   },
@@ -3356,7 +3355,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/4463C007AD.png"
     ],
     "description": "CANON Jet d'encre Pixma TS3440 MFP 3 en 1,Black7.7ppm/4ppm,Wifi,R/V,A4."
   },
@@ -3381,7 +3380,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/3771C007BA.png"
     ],
     "description": "CANON Jet d'encre Pixma TS3340 MFP 3 en 1,Black7.7ppm/4ppm,Wifi,R/V,A4."
   },
@@ -3431,7 +3430,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/2315C009AB.png"
     ],
     "description": "Canon Inktank PIXMA G3410 MFP 3en1 Réseau Wifi Black 9ppm /color 5ppm,LCD1,2cm,USB,A4"
   },
@@ -3481,7 +3480,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/8468B002AA.png"
     ],
     "description": "Canon Laser i-SENSYS LBP6030w SFPMono SFP Wifi  18ppmA4"
   },
@@ -3506,7 +3505,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/5162C008BA.png"
     ],
     "description": "CanonLaser i-SENSYSLBP233DWSFPMonoWifinetwork,33ppm"
   },
@@ -3606,7 +3605,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/5951C020AA.png"
     ],
     "description": "Canon Laser i-SENSYS MF461dw MFP Mono 3 en 1  36ppm duplex,Wifi,Network"
   },
@@ -3656,7 +3655,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/5951C007AA.png"
     ],
     "description": "Canon Laser i-SENSYS MF465dw MFP Mono 4 en 1  40ppm duplex,Wifi,Network"
   },
@@ -3681,7 +3680,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/5158C009AA.png"
     ],
     "description": "Canon Laser i-SENSYS MF651Cw Laser color 3 en 1  18ppm,Wifi,Network A4"
   },
@@ -3706,7 +3705,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/5158C004AA.png"
     ],
     "description": "Canon Laser i-SENSYS MF655Cdw Laser MFP color 3 en 1  21ppm,Wifi,Network A4"
   },
@@ -3731,7 +3730,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/5158C001AA.png"
     ],
     "description": "Canon Laser i-SENSYS MF657Cdw Laser MFP color 4 en 1  21ppm,Wifi,Network  A4"
   },
@@ -3756,7 +3755,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/5455C012AA.png"
     ],
     "description": "Canon Laser i-SENSYS MF752CDW Laser MFP Color 3 en 1  33ppm,Wifi, Network  A4"
   },
@@ -4681,7 +4680,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/EP2-06659.png"
     ],
     "description": "Microsoft Office Home and Business 2024 French Africa Only"
   },
@@ -4706,7 +4705,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/QQ2-01735.png"
     ],
     "description": "Microsoft M365 Personal French Subscr 1YR Africa Only Media less P10"
   },
@@ -4731,7 +4730,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/6GQ-01921.png"
     ],
     "description": "Microsoft 365 Family French Subscr 1YR AfricaOnly Medialess P8 (Abonnement 1 an pour les particuliers)"
   },
@@ -4781,7 +4780,7 @@ export const FALLBACK_PRODUCTS = [
       "Origine": "Disway Maroc Officiel"
     },
     "images": [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80"
+      "/assets/products/P73-08329.png"
     ],
     "description": "Windows Svr Std 2022 64Bit French 1pk DSP OEI DVD 16 Core"
   },
