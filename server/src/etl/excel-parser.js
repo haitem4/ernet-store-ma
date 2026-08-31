@@ -1,4 +1,4 @@
-﻿// ============================================================
+// ============================================================
 // ERNET STORE — Module ETL : Parseur Excel Haute Performance
 // ------------------------------------------------------------
 // Supporte :
@@ -235,7 +235,7 @@ export async function parseCatalogExcel(filePath, imageOutputDir = 'uploads/prod
         if (stockNum !== null) {
           stock = Math.max(0, Math.round(stockNum));
         } else {
-          const sText = normalize(getCellValueAsString(row.getCell(colMapping.stock)));
+          const sText = normalize(colMapping.stock > 0 ? getCellValueAsString(row.getCell(colMapping.stock)) : '');
           stock = /oui|dispo|en stock|[1-9]/.test(sText) ? 10 : 0;
         }
 
