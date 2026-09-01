@@ -203,6 +203,10 @@ export async function parseCatalogExcel(filePath, imageOutputDir = 'uploads/prod
             else if (/marque|brand|constructeur|fabriquant/.test(h)) colMapping.brand = colNumber;
             else if (/spec|configuration|caracteristiques/.test(h)) colMapping.spec = colNumber;
           });
+          
+          if (colMapping.sku > 0 && colMapping.name === -1) {
+             colMapping.name = colMapping.sku + 1;
+          }
           return;
         }
       }
@@ -234,9 +238,12 @@ export async function parseCatalogExcel(filePath, imageOutputDir = 'uploads/prod
       }
 
       // --- 3. Format Multi-Lignes (Spécifications techniques sous la référence) ---
-      if (!hasSku && currentProduct) {
+      const skuText = skuVal ? String(skuVal).trim() : '';
+      const isSameAsCurrentSku = currentProduct && hasSku && skuText === currentProduct.sku;
+
+      if ((!hasSku || isSameAsCurrentSku) && currentProduct) {
         const specText = String(nameVal || firstCell || '').trim();
-        if (specText) {
+        if (specText && specText !== currentProduct.name && specText !== currentProduct.sku) {
           if (specText.includes(':')) {
             const [k, ...v] = specText.split(':');
             currentProduct.specs[k.trim()] = v.join(':').trim();
